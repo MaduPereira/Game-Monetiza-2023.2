@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +115,5908 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3947
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56988d6ce03da3847acab5e2f4223caf
+      internalID: -1238363461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3937
+        width: 122
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a6b0316796ff147abbb798048df79a
+      internalID: 207549490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 3949
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13a0f559d87d2a45a34cc3b99aeb164
+      internalID: -1958775902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 3938
+        width: 110
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f850a812b71df4681604c104e1eb85
+      internalID: 1718435596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_4
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3965
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77da70b2fd90544ab89bfb149cdb971
+      internalID: -1381199649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_5
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3969
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f365e5c1527cbae4881877eedd6fb99a
+      internalID: 1272961475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_6
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 3965
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c0f0085300f3e42b9b6231b51fbb08
+      internalID: 1866661430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_7
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 3959
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a452a58858488c241b5bd9ebcb2f1e9f
+      internalID: 1525149982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_8
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 3965
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f2c9860853ab04f9cb936b56719536
+      internalID: 1096646498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3999
+        width: 114
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b1b085da000ea4c9f83b66c5abc902
+      internalID: 1127305475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_10
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 4023
+        width: 126
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1db8c3f74b9d4c4d885c286c2523fe1
+      internalID: -941326563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_11
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 3951
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3be6d8b33844e4089595c06140c1ad
+      internalID: 906544691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3947
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a59ad7bfffb9cd4ebaf577d644f4911
+      internalID: 1252684699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3803
+        width: 111
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7fdd3681392d64392dfaebdbf25ce4
+      internalID: -1218152462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3829
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab528983a097764bbf212ad4cda9f71
+      internalID: 1850421440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3847
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635d9f5005855fd4d8baf072a4f07e7b
+      internalID: -379748075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_16
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 3885
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bee73fcffdb83d4fb0f793baf9d8143
+      internalID: -1055269425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_17
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 3869
+        width: 82
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfa839200ecfed40be51d763456a23c
+      internalID: -1845784139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3799
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513d2c1e52e5f9046ac2a536581ef7b2
+      internalID: 1269467167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3805
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e299a78da8b2c74582e0a4f9e7d67a5
+      internalID: -925232247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3891
+        width: 128
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8411375c2b9c7af43bca4efc1cdae863
+      internalID: 1333260332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_21
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 3847
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a8a53e9f5c7c4e852395ee9fcd1cd
+      internalID: -1416945464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_22
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 3815
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fa847b98518b47aa1915227e87a4b
+      internalID: -878805478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3815
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01936ce6d7a01d446879fe6b58cbd119
+      internalID: 1844313478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_24
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 3871
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07954f8962d1b5419a542beab1c1435
+      internalID: -1647613216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3849
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b924aff50e3814a930103d249f8e0b
+      internalID: 578030423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_26
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 3749
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcc0d64a85f3844a9dde20ad10ef93a
+      internalID: -1738493642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_27
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3761
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bb53dfba2969149ac85b3a0a0f71d5
+      internalID: -159564341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3695
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6bd3364f8811b40a7f66aa00f70cba
+      internalID: 955867165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_29
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3709
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e168a5b6ee8bc4d9939da0494bfad8
+      internalID: 409023895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_30
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 3693
+        width: 81
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527faf0be68c8a4a88e78b90301f2cb
+      internalID: 34500993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_31
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3807
+        width: 114
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed143b152c621745a45ff6ce8137953
+      internalID: -1783518381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3675
+        width: 44
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dbbdb212dbf7549990c2860e2b3b1b
+      internalID: 1060487745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3655
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee286246f065ea4581ef458fc508346
+      internalID: 2093059545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_34
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3673
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f0dd790b12b0c44aa20e21c6bcf29c
+      internalID: -559517227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_35
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 3661
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff4299f45b3e4041bcaab4fc1519b71
+      internalID: 1794995842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_36
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 3663
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057c0defb9a0d2b4590cd0c528e655ab
+      internalID: -1545234736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_37
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 3721
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d696b972758cd47b435c9517e047a2
+      internalID: -87624188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_38
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 3681
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778516c70e231246b629ee766ae2d90
+      internalID: 970477247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_39
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 3681
+        width: 102
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c3f3f9d4c6daf458da9f323f927e63
+      internalID: 1316427543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_40
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3655
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f7063a7f627944e963fdc7610c3a2c
+      internalID: -1520436481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_41
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3671
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fafdd44cbaf31040bda20f67d31c47f
+      internalID: 1283485567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_42
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 3557
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b651359caaa641bdc3f77d76538e4
+      internalID: -712473761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_43
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3641
+        width: 114
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a2903c5fea7f4d9e065d46b307360
+      internalID: -930414460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_44
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 3647
+        width: 114
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39931e21d9e38847ac5d4ef9522b636
+      internalID: 552728121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3625
+        width: 160
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc097ee23c599d4b91e7afe43da594f
+      internalID: 209414093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_46
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3521
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e08c783b4ce2f499a7f710c90d6b91
+      internalID: 332330948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3527
+        width: 112
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11080c72dbb093a4b81bc020ac82ba6c
+      internalID: 1529989541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_48
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3541
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da8aad89a8106c4cb2805c390041dde
+      internalID: 2127847052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_49
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3545
+        width: 97
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536b36d76e70cf40a4ae45f3772fef6
+      internalID: -1843781560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_50
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 3585
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907947289c8d4f34dade5b9c2e1d6fb9
+      internalID: 1910757455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_51
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3583
+        width: 114
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b735b5588f5064e98417bf2bf9ecba
+      internalID: -23376470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_52
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 3583
+        width: 126
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a59e9020c8fc43bfc82041d24b8d8
+      internalID: 1944964604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_53
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 3575
+        width: 126
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce0401e1915cfb4888b28c4b6847c25
+      internalID: -2012386810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3475
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7027d3ab83c4dd34290b2fa6d7873921
+      internalID: -1396762772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_55
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3475
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16b816ae93e60744b49547334a4f556
+      internalID: 562720607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_56
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3467
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3144a4d32377db4089d092f1490012c
+      internalID: 133849484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_57
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3375
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561a76449f2abdd4796791b1b1936a70
+      internalID: -888256840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_58
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 3381
+        width: 79
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d0b3a776388348a0f723551f2c261
+      internalID: 1138725081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_59
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3391
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac306a241b5e247b5aff8bdb5df699
+      internalID: -1116885437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_60
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 3413
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15056e23411c237489a83f6d0ca5fea0
+      internalID: 1165704009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_61
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 3421
+        width: 91
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e524fba609d1e64aba0ca4399ee9062
+      internalID: -1716453623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_62
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 3337
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4bf9efa1fca5f4397e2b0cd1723f5e
+      internalID: -452825074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_63
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 3431
+        width: 148
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b443bccfb2d484a9cca51336a0ba3c
+      internalID: -1076156237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_64
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3429
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73343f9b790ec1540aac0851117a5655
+      internalID: -2129948915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3337
+        width: 98
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db732469851b4e140941b3cbf895e043
+      internalID: 1867131062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_66
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3333
+        width: 78
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8fc63ecda434548963a9fa42e54ba9
+      internalID: 996583423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_67
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3333
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b415d760df0e4786063c3f780923a
+      internalID: -1900932249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_68
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 3335
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47fdc18c6169074d807ead3774b0ae4
+      internalID: 1140405864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_69
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3343
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaf93a69b08ee94aaa7e0f82ed5bbfb
+      internalID: 813399497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_70
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3257
+        width: 97
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b6403d4d18ae479df728cb506fa3f
+      internalID: -1538918442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_71
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 3343
+        width: 111
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db169453d8bf8864887a373300d2792a
+      internalID: 651568796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_72
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 3337
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebdb4514a2bad046a88e71877353e1c
+      internalID: -1475064806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_73
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3277
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479be5454c9b7ef4b8fb71ee9e35b2f3
+      internalID: -976978874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3207
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad03a26e94efcb24cbe010b55b768cd9
+      internalID: 6439026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_75
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3259
+        width: 12
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67338c38e2fffe440ad3d722427e51af
+      internalID: 1294000212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_76
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3257
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d8e2a8ad06614469fd0180fb499ff9
+      internalID: -1000893449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_77
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3183
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaebf1f615fecb4c9752ed962ef5dd0
+      internalID: -251510608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_78
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 3189
+        width: 83
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173700afe847a3342b9b3ed94f5e9e0c
+      internalID: -1242135915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_79
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 3213
+        width: 78
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa07f28b9a404549b5982d9bf7bf8e0
+      internalID: -1687025790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_80
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 3187
+        width: 84
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd72d0eb616339c43b1319730895f14f
+      internalID: 1693481805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_81
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 3207
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1179c09c784824f8066cf4b6c14c4a
+      internalID: -1416494258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_82
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 3265
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801499a3b91b4bf498a4e00e51b2480e
+      internalID: -2140948269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3125
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9a174f5a11d2d43a1540d17d48beb5
+      internalID: -1605306111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_84
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 3215
+        width: 111
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916ad26791cdfa146ba93acd1f0ad7b6
+      internalID: -975763165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_85
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 3201
+        width: 86
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0192d366647b7241913308ff9837433
+      internalID: 1775719896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_86
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3069
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0209e05ebaf74d44ba091ba07a15c728
+      internalID: -1280841485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_87
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 3175
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448e2194b0944b24c94bcaf3c1586b09
+      internalID: 572748095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_88
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 3187
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a5b6fc8cd706e4781120bf38c97fc7
+      internalID: 1878251318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_89
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 3069
+        width: 77
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f383ebc1ab27d734cbf1e6a8bfdf379e
+      internalID: 759801294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_90
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3083
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf4fba556c73347877d02fa7ec58a2
+      internalID: -1332655474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_91
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3069
+        width: 82
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4557c7ffec82a44bdb372fc5c1de6c
+      internalID: -462600000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_92
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 3143
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6e222d1b9589941941047c40e34490
+      internalID: 1637950376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_93
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3151
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcf7cbf18727504e9253598f2cd22b2
+      internalID: -1656672988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_94
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3031
+        width: 111
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1ca3f86d885af4e9d38b39785bd64d
+      internalID: 2108429889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_95
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 3027
+        width: 79
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f4799ce29fb045b5fb4a5e655db78
+      internalID: 609474945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_96
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 3053
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffed9dde9faa8d04f9b95e251158b5d6
+      internalID: -259707800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_97
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3007
+        width: 126
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d828afdd2cafdf4489553f5d41f41db3
+      internalID: -1157652065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2933
+        width: 88
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36f4384d0274f74a96f5f93d8396034
+      internalID: 35587083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_99
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 3025
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4013de15ab290469d0f16a11facd27
+      internalID: 1704677776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_100
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2997
+        width: 79
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e889e0c15c629409c96265c6449334
+      internalID: -2021013206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_101
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3033
+        width: 121
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c7fd014ed1d7c4fa3bf9e231218aa2
+      internalID: -1149020127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_102
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 3015
+        width: 114
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f6ff46a5f24f46863b59212c26ca1
+      internalID: 922164285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_103
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 3033
+        width: 156
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2dd4cffdcbdb34792589b16bf52732
+      internalID: 554062873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2853
+        width: 86
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e778d26e2e6682f4297d42cca4275eac
+      internalID: -266001500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_105
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2971
+        width: 128
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d092b1770f834544da7005327f62227e
+      internalID: 377964287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_106
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2845
+        width: 79
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99cff4fa21fb9e4890c2a503e84d54b
+      internalID: 925448506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_107
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2905
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9712c56a5b8b4c7469a6f854dde563d1
+      internalID: -669214637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_108
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2911
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5870f557e34894447a1ff8c5cc028ddb
+      internalID: -889262456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_109
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2777
+        width: 146
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bdfbbf2946157469e626a6dce9eb0f
+      internalID: -173976729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_110
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 2885
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a756db0b8efb20a42bf78499e23540a9
+      internalID: 430074638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_111
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2897
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da990aa48eb0ea1428f82c5b7a3d4ba0
+      internalID: -1222070460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_112
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2769
+        width: 116
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3bbcb29992ddc41bb49458839d305c
+      internalID: -1647993354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_113
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2823
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971bfe8f11cccc8429355bfc8100288e
+      internalID: 1878336038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_114
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2857
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e012186c45e3354dae9759e2ab40e74
+      internalID: -741327796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_115
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2855
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d40dd9b2ca84264fb0ef262a4db7a5c
+      internalID: 2002816503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_116
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 2731
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6af4d059fb2f146949743269b90d50
+      internalID: -713573310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_117
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2703
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca2d31824bfd744dbae28d84861a635
+      internalID: -2085362177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_118
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2735
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72147f3c3c1a0ca4583cc6ffac26fecf
+      internalID: -1962154381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_119
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 2659
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f36b08002945c478240a60e8f4e887
+      internalID: -1861131631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_120
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2709
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce90fcf87e02929479f18f42445a6067
+      internalID: -68288788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_121
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2753
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c3fe0056a6504ca55d3119839e6ec
+      internalID: -1785081596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_122
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2717
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22332532a9fab48499b418c7fbf54d66
+      internalID: 1542115802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_123
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2721
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d00582439157fb459d95f9be2a55103
+      internalID: 412654366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_124
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2687
+        width: 125
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c1875ddc7feb944a48980a627d0ee6
+      internalID: -797349391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_125
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2731
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd9edac381ec044aede337e7c9eff2
+      internalID: 638170796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_126
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2549
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7aea5361c469044bf02ad77ba4e6b3
+      internalID: 1158263783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_127
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2565
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d5fc37e2487249a89a9eb94e55fba
+      internalID: 467265068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_128
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2591
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cc1600514eb7e4685e9b8a73827650
+      internalID: 1693731123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_129
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 2671
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c184635053ced9e48a3e7eab245cf3a4
+      internalID: 1446352651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_130
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2571
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cece07ba37cef6a478cd220a2d8a3bbb
+      internalID: 1087761318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_131
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2567
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c657508af29b844b5c3ad145c8fea6
+      internalID: 355329117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_132
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2571
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b478a17eb7ab75a4e86389b688ded6fe
+      internalID: -1620991574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_133
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2433
+        width: 146
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182eefb79ef82f408e38445f7ec1a9d
+      internalID: -1656715022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_134
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2549
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61556ab6d348aa459028f91624ea01c
+      internalID: -1061621385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_135
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2571
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ec9cc85e24ff64c9c4e6bca685fa9b
+      internalID: -573516388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_136
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2305
+        width: 146
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830ed82e619d0d440a7c4d89318961ab
+      internalID: -1779125043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_137
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2441
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88adee6998d5f354cb29846028a5b798
+      internalID: 868205471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_138
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2417
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c50ecf227da7344b62fc2c3e00f312
+      internalID: -710343129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_139
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2429
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccccd3d71a2b324bac29f5a53f42e17
+      internalID: 1150817955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_140
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 2473
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d056eac87cca04bba2f25c0e88d786
+      internalID: -1920083102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_141
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2393
+        width: 162
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d7849208eac048ba3866bb5e15a57
+      internalID: -117209273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_142
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 2431
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9b632a79df844fa1da5eebbe5b3f8
+      internalID: -1311947756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_143
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2065
+        width: 146
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f3fa8ac839a0544b6fc2a2aa1d80e7
+      internalID: -668089943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_144
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2137
+        width: 144
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af46e4e5d993fc7418de39a8c7f99e9a
+      internalID: 953479558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_145
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2266
+        width: 44
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b68419abdbcb84496ef862fdffce6a
+      internalID: 817997998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_146
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2259
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9e6f265c2592d47a3c49aefdf54acd
+      internalID: -1209852024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_147
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 2279
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5ad07bb38ef8c4f87bbf8c4561fae2
+      internalID: 1043421811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_148
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 2267
+        width: 109
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f53aee34addd64a8df8a80248a482c
+      internalID: 776766429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_149
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 2275
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca05512c7029449993f8af275e7e98
+      internalID: -328381941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_150
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2217
+        width: 160
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0830b0df483a9e4f8c328530b15c34f
+      internalID: 760806162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_151
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2215
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24486ae39b86b3d4d837ae025de0f441
+      internalID: -2108828201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_152
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2025
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fbeda16f5acd94ca1753a47e9bdd3c
+      internalID: -983049163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_153
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2175
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c84eb995dbce84e8453dd23223c104
+      internalID: 219801147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_154
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2049
+        width: 136
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ccf09ef7db92349a69e2d66fd63cd4
+      internalID: 911236549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_155
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2067
+        width: 85
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f969a6f774fd0c48aa34a2722c5dc79
+      internalID: 1835168437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_156
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1971
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b9b84399155e741bdf915441cd4893
+      internalID: -2061143787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_157
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 2019
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe75f862171044885392dcd4c24ea7
+      internalID: 1945897716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_158
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2067
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e3e36adb775cd4f8d8262cb9caa889
+      internalID: -352089071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_159
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1907
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3281842a4ed3d4499a031ad7e0aeab
+      internalID: -936602768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_160
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1925
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd76767cd763b014f94a579944146724
+      internalID: 1916345003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_161
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2015
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3c4e02f2f432042b63021255fb1181
+      internalID: 1499158881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_162
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2015
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8d11d46001d4a4a92d540bbf3d0bfe
+      internalID: 1161412762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_163
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1967
+        width: 112
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297161d8bcff50c45a2f77590886355d
+      internalID: 454582760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_164
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1983
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c114f3c2f20934a9f09d1d92ca8f97
+      internalID: -1431482067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_165
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1983
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8b2e5169e2294d937e8edfceff7ed
+      internalID: -265435685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_166
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1923
+        width: 128
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d2255d4c996b34bacd9f96e5eae6de
+      internalID: 1809506415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_167
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1935
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cae9b80fb00e3b439a0afd5e1a3bc86
+      internalID: 1577853950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_168
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1853
+        width: 76
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fc32346ea672c4b81d9cf0ab3eacd9
+      internalID: -1037719658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_169
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1903
+        width: 112
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40064d1cae29c1d4e9f06c53892c5408
+      internalID: -21584032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_170
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1897
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ef097802aaaa84db8fab0c536acb2f
+      internalID: -1883212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_171
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1907
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81429c7a154ac240be0c760070b92fe
+      internalID: 1499330827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_172
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1763
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5867f102f6eaaa48af71cf42df1d32c
+      internalID: 1658228499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_173
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1773
+        width: 80
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744eb3da16095940b44b02fb28ffeac
+      internalID: 406311361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_174
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1833
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb727cbe4e96bb47b49785b11374cf3
+      internalID: 2004792558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_175
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1739
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cdd28f9196b204e92255cf92261861
+      internalID: 2129409252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_176
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1707
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937fcc91611d83042957701f5b391d2f
+      internalID: 477459764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_177
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1621
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ebd34f60ed7b46a56717ef136d459
+      internalID: -253413509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_178
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1701
+        width: 76
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b21743b2b1c44c9c1c6ee35e07d89
+      internalID: 1477791394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_179
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1707
+        width: 85
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b9f6834bee0d74eb8a24211def4f07
+      internalID: -2019807799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_180
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1737
+        width: 126
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8894b16cd25995542ac24a73e3d251c4
+      internalID: -592827271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_181
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1739
+        width: 111
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f995ef5d418c24f4a8c5c7114bb2f23c
+      internalID: 64373673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_182
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1497
+        width: 148
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a12eecbdcb4cc40b94c1ddaa4be835
+      internalID: -559325688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_183
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1707
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e772e6704954e24ebda22b39c4c0ff8
+      internalID: -1401646040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_184
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1703
+        width: 111
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b6eb329241c6346a579474cbc02cf3
+      internalID: -1509459976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_185
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1617
+        width: 44
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad985a36ee07445ade8d5179c6bbeb
+      internalID: 722013478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_186
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1663
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b75da4f5fb7def45a2d8b02adc328ae
+      internalID: -1024915715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_187
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1539
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf7bb8f5e84df14c8f6c746f278bcb5
+      internalID: -454454641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_188
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1567
+        width: 111
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d9014b28daad4aab0f090b4a18a40
+      internalID: 675340873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_189
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1529
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ef8bcc808c91b4c92ddc8943937ef8
+      internalID: -435891272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_190
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1495
+        width: 90
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85d036aadc8a5c49aad778a970fdaf9
+      internalID: 98185602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_191
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1569
+        width: 161
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8155ec64b55a3714bb4c6e768cfb1d3e
+      internalID: 1297571524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_192
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1359
+        width: 90
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b7db5cdac965440a0fad148c0e3b73
+      internalID: 116492570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_193
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1289
+        width: 144
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e56c3f07ae2746b55efe4ede54158
+      internalID: -922464712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_194
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1361
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9fda8172062f1429913588bf1e201c
+      internalID: 119707057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_195
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1387
+        width: 84
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9e0bef95a5b3244a67787bb07ba2c2
+      internalID: 1856317131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_196
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1387
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97d8e1c109287747be01a5e9e58c701
+      internalID: 508429780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_197
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1415
+        width: 111
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5083acfb32b354e4abf908407a88bb70
+      internalID: 145930855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_198
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1415
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af8539d68523a648ab2c7e3af2e2052
+      internalID: -365348723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_199
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1387
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b4b3ba1d63564799486c8b27a9a0d
+      internalID: 86218675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_200
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1387
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531a69fc6551201429b6e77369e663c5
+      internalID: 246632195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_201
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1387
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e20fbed4f90f849b48351df44cf120
+      internalID: 404374157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_202
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1261
+        width: 79
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7e12eef7087cb40a137961bc71f37f
+      internalID: 1808802440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_203
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1263
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc20c1bf1c7f2b48a1957ba811eba48
+      internalID: 1631795855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_204
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1241
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e96eec3703d8f4fad86883480024d6
+      internalID: 63098607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_205
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1307
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f3488cbaabcf44ba9b6b564f89c43b
+      internalID: 692482855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_206
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1227
+        width: 148
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa7469021916864ab5d9fdd8b7fc67c
+      internalID: 193340144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_207
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1227
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3653a289ee1ea4db6d12a55c825338
+      internalID: 814663827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_208
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1141
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690390c769425414381db9009115fa33
+      internalID: 1468575862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_209
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1143
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1c5a8cc7e96ed4e8ed087d729b0c46
+      internalID: 1702901173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_210
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1227
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19049fab752681d459385773d4221794
+      internalID: 1130537830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_211
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1107
+        width: 77
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da937deebdca634eb4cbf6fae704ac1
+      internalID: -1507604446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_212
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1099
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11ef340fffd24a44b9328657f12d80a
+      internalID: -577308603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_213
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 993
+        width: 146
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258566177b237f347bfb3e33e0dd4290
+      internalID: -1953705096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_214
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1063
+        width: 126
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768aae963deb3584384be8b97545fe31
+      internalID: -973328232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_215
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1043
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f646429086f474c87276c0655a3d2a
+      internalID: -1412982712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_216
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1113
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1288fa1ead8460041b50feda630d9688
+      internalID: 723576644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_217
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1069
+        width: 78
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c344bcae70600774fa921c84cc76a77c
+      internalID: -732778772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_218
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1117
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bc21b31797e5c4198b1ffc265b3d79
+      internalID: -1573397806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_219
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 981
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a7f6058b1aac44592e95e58f37d1f8
+      internalID: 1833506808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_220
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 963
+        width: 78
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864775f0c837c44469d369e24eaaa370
+      internalID: 1075596574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_221
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1063
+        width: 111
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7a68b3e44e22941a5b278be74da2d3
+      internalID: -1201145716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_222
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1063
+        width: 114
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a42c92ad70f694a9bc140bba3572e3
+      internalID: 1083793374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_223
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 899
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62218387500860d49a34a32fa7bec78f
+      internalID: -463490700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_224
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1043
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08604cb42a080245879f99b08e8c962
+      internalID: 1576641852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_225
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 959
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f3667c2b017784ebc880c424f044d0
+      internalID: 1958812157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_226
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 949
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e254b977b69f9c940bff520d01922b86
+      internalID: 764820101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_227
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 835
+        width: 80
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e1cd13bc84c3149817aaa30c0df95f
+      internalID: -904700180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_228
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 847
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8018f9ecb016d43469db617ae099f0df
+      internalID: -276353197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_229
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 915
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21249e62adb536a4cb4b114e8984ce2b
+      internalID: -1315305276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_230
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 915
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977a64ecf84f8a849afd03b25dc80e74
+      internalID: 105498458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_231
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 819
+        width: 82
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c5ea5436f1ffc44bd42acc3befa77a
+      internalID: -969719688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_232
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 821
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2a470003a61142991b0fb3c8df270
+      internalID: -1570609104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_233
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 897
+        width: 161
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fcfff304116b64fb10a0e384dd7ed8
+      internalID: 593939513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_234
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 717
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413532701383fba4699cb621d55449de
+      internalID: 1793125030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_235
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 739
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681cb3c2842da814ba357cc948b40a74
+      internalID: 795144485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_236
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 781
+        width: 76
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a1bcf332be8ca4aac06ed3bc784242
+      internalID: 2056091804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_237
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 799
+        width: 112
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c49f1906056e146aac049b11260bc5
+      internalID: -1210298435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_238
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 819
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0f29fa0039e964da594aa7593ae8eb
+      internalID: 1794813663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_239
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 739
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c945ba582eb4bec4383d068846e6096c
+      internalID: -753093547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_240
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 701
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44cbefd2609a3242ad02895ebdb5feb
+      internalID: 260912420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_241
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 605
+        width: 76
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdfea1444e4944439e8eb007b68263e
+      internalID: -1449822575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_242
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 627
+        width: 79
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abacd8ce655c31d4ba94020e2ba81f7e
+      internalID: -20510399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_243
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 661
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45b5f8f4840024479c117ca69d0cdb6
+      internalID: -2031750128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_244
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 647
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75498a0fa81211d499f2572f6fef0612
+      internalID: 1793860242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_245
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 671
+        width: 111
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a0a0d20fb3d4e478df0566dddb2b1c
+      internalID: -1831680106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_246
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 539
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f5be07efc3e04e999de97c2ef4adb
+      internalID: 302454046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_247
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 537
+        width: 128
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bba5c22be53dc344ba0a10a6b4b120d
+      internalID: -376767596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_248
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 633
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23acedac58d9b72429150b1d93654f88
+      internalID: 1697186340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_249
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 509
+        width: 78
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83989b4848371af429ba267dabca611d
+      internalID: 131360156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_250
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 425
+        width: 146
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c973e08b82cfdab48a8506eff7ba5c58
+      internalID: 2015556307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_251
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 431
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ed6870a691f3243a6b4daf61a5d59a
+      internalID: -139419531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_252
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 389
+        width: 88
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14592f9cdf96ca94db84535993fb2d9b
+      internalID: -172319536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_253
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 389
+        width: 80
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2058ec55181c78a49a6c2265e052c7d7
+      internalID: 637054320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_254
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 477
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30346434adb20b34790f241cda49fca5
+      internalID: -1505025701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_255
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 359
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9acf4b4cf20db40bb8888f49fcf366
+      internalID: 1074362372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_256
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 401
+        width: 145
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5488fd53e95a6fc4283a1ff72677147f
+      internalID: 1979839039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_257
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 439
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed72a5c68ede2f847bd9a95987dcfa11
+      internalID: 1749131541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_258
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 305
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4926507ba6b4e48b7cfc817bea371c
+      internalID: -695777930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_259
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 407
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f567b8cf905edf4fa7d5f0d9762172f
+      internalID: -353125674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_260
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 186
+        width: 44
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b2040634bbaa04695e217669ef3890
+      internalID: 1172545727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_261
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 239
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd924e1c897f0541a677bdf1c54d62d
+      internalID: -1984458179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_262
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 265
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29625b2778755d4ca61b47d22428a64
+      internalID: -729276165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_263
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 195
+        width: 109
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f34f4da54015747985538c390c4719
+      internalID: 1005277391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_264
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 259
+        width: 83
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b08fd88898d4b46bf75ffebd0e90b0
+      internalID: 69420296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_265
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 259
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a5b6dcb10b6b940a2091478cc459ec
+      internalID: 1060363567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_266
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 101
+        width: 98
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87493ddf16220464097787c89d0340a3
+      internalID: 1920029416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_267
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 217
+        width: 162
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7554b916cef404d8d84d4f9cbad46b
+      internalID: -1191475822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_268
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 137
+        width: 162
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0676ff536b2c5641841a825c9618b4f
+      internalID: 76667003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_269
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 63
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228c44ef396ce9d42acaa2c1e892a34c
+      internalID: -1171241019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_270
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 51
+        width: 110
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75320d219e18ea43bbedee4c7264f7e
+      internalID: 133915741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_271
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 45
+        width: 78
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df9420804286f049bac6443a5d6b922
+      internalID: 716838863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_272
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 61
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca93d7b8818be5c438d97df7e24b7614
+      internalID: 890438981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_273
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 51
+        width: 104
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264820113e7257e4c9787826e6c415b9
+      internalID: -1668896917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_274
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 59
+        width: 104
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5a0281f8d66294ba8d22043a5f3ff7
+      internalID: -1932439901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_275
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 9
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81cc0248ba54fa4d8d07caf31f7d294
+      internalID: -2111809661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_276
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923248d66cd9ec54faae6756181acaac
+      internalID: -2069071943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_277
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 17
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce49c81f90b6542b4f69d76c2cf9cd
+      internalID: -663004842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_278
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 23
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769e4d46a380ed44fad1a4e5fc1c2104
+      internalID: -909397515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_279
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 15
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f84b2fb85eec19468a751d10dc0e8cb
+      internalID: -1487735656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Dumb Ways to Die 2 The Game - Map Characters_280
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 7
+        width: 112
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77493e3beb834b64c8dca264a17c6b9c
+      internalID: -921390333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +6027,288 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_0: -1238363461
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_1: 207549490
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_10: -941326563
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_100: -2021013206
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_101: -1149020127
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_102: 922164285
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_103: 554062873
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_104: -266001500
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_105: 377964287
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_106: 925448506
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_107: -669214637
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_108: -889262456
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_109: -173976729
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_11: 906544691
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_110: 430074638
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_111: -1222070460
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_112: -1647993354
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_113: 1878336038
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_114: -741327796
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_115: 2002816503
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_116: -713573310
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_117: -2085362177
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_118: -1962154381
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_119: -1861131631
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_12: 1252684699
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_120: -68288788
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_121: -1785081596
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_122: 1542115802
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_123: 412654366
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_124: -797349391
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_125: 638170796
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_126: 1158263783
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_127: 467265068
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_128: 1693731123
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_129: 1446352651
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_13: -1218152462
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_130: 1087761318
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_131: 355329117
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_132: -1620991574
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_133: -1656715022
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_134: -1061621385
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_135: -573516388
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_136: -1779125043
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_137: 868205471
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_138: -710343129
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_139: 1150817955
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_14: 1850421440
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_140: -1920083102
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_141: -117209273
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_142: -1311947756
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_143: -668089943
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_144: 953479558
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_145: 817997998
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_146: -1209852024
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_147: 1043421811
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_148: 776766429
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_149: -328381941
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_15: -379748075
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_150: 760806162
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_151: -2108828201
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_152: -983049163
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_153: 219801147
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_154: 911236549
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_155: 1835168437
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_156: -2061143787
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_157: 1945897716
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_158: -352089071
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_159: -936602768
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_16: -1055269425
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_160: 1916345003
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_161: 1499158881
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_162: 1161412762
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_163: 454582760
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_164: -1431482067
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_165: -265435685
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_166: 1809506415
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_167: 1577853950
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_168: -1037719658
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_169: -21584032
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_17: -1845784139
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_170: -1883212
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_171: 1499330827
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_172: 1658228499
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_173: 406311361
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_174: 2004792558
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_175: 2129409252
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_176: 477459764
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_177: -253413509
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_178: 1477791394
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_179: -2019807799
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_18: 1269467167
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_180: -592827271
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_181: 64373673
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_182: -559325688
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_183: -1401646040
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_184: -1509459976
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_185: 722013478
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_186: -1024915715
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_187: -454454641
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_188: 675340873
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_189: -435891272
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_19: -925232247
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_190: 98185602
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_191: 1297571524
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_192: 116492570
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_193: -922464712
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_194: 119707057
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_195: 1856317131
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_196: 508429780
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_197: 145930855
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_198: -365348723
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_199: 86218675
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_2: -1958775902
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_20: 1333260332
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_200: 246632195
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_201: 404374157
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_202: 1808802440
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_203: 1631795855
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_204: 63098607
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_205: 692482855
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_206: 193340144
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_207: 814663827
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_208: 1468575862
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_209: 1702901173
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_21: -1416945464
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_210: 1130537830
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_211: -1507604446
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_212: -577308603
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_213: -1953705096
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_214: -973328232
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_215: -1412982712
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_216: 723576644
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_217: -732778772
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_218: -1573397806
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_219: 1833506808
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_22: -878805478
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_220: 1075596574
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_221: -1201145716
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_222: 1083793374
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_223: -463490700
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_224: 1576641852
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_225: 1958812157
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_226: 764820101
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_227: -904700180
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_228: -276353197
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_229: -1315305276
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_23: 1844313478
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_230: 105498458
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_231: -969719688
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_232: -1570609104
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_233: 593939513
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_234: 1793125030
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_235: 795144485
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_236: 2056091804
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_237: -1210298435
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_238: 1794813663
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_239: -753093547
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_24: -1647613216
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_240: 260912420
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_241: -1449822575
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_242: -20510399
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_243: -2031750128
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_244: 1793860242
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_245: -1831680106
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_246: 302454046
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_247: -376767596
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_248: 1697186340
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_249: 131360156
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_25: 578030423
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_250: 2015556307
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_251: -139419531
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_252: -172319536
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_253: 637054320
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_254: -1505025701
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_255: 1074362372
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_256: 1979839039
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_257: 1749131541
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_258: -695777930
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_259: -353125674
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_26: -1738493642
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_260: 1172545727
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_261: -1984458179
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_262: -729276165
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_263: 1005277391
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_264: 69420296
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_265: 1060363567
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_266: 1920029416
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_267: -1191475822
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_268: 76667003
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_269: -1171241019
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_27: -159564341
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_270: 133915741
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_271: 716838863
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_272: 890438981
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_273: -1668896917
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_274: -1932439901
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_275: -2111809661
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_276: -2069071943
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_277: -663004842
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_278: -909397515
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_279: -1487735656
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_28: 955867165
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_280: -921390333
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_29: 409023895
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_3: 1718435596
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_30: 34500993
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_31: -1783518381
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_32: 1060487745
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_33: 2093059545
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_34: -559517227
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_35: 1794995842
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_36: -1545234736
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_37: -87624188
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_38: 970477247
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_39: 1316427543
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_4: -1381199649
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_40: -1520436481
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_41: 1283485567
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_42: -712473761
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_43: -930414460
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_44: 552728121
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_45: 209414093
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_46: 332330948
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_47: 1529989541
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_48: 2127847052
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_49: -1843781560
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_5: 1272961475
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_50: 1910757455
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_51: -23376470
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_52: 1944964604
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_53: -2012386810
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_54: -1396762772
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_55: 562720607
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_56: 133849484
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_57: -888256840
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_58: 1138725081
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_59: -1116885437
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_6: 1866661430
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_60: 1165704009
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_61: -1716453623
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_62: -452825074
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_63: -1076156237
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_64: -2129948915
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_65: 1867131062
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_66: 996583423
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_67: -1900932249
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_68: 1140405864
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_69: 813399497
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_7: 1525149982
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_70: -1538918442
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_71: 651568796
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_72: -1475064806
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_73: -976978874
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_74: 6439026
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_75: 1294000212
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_76: -1000893449
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_77: -251510608
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_78: -1242135915
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_79: -1687025790
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_8: 1096646498
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_80: 1693481805
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_81: -1416494258
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_82: -2140948269
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_83: -1605306111
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_84: -975763165
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_85: 1775719896
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_86: -1280841485
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_87: 572748095
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_88: 1878251318
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_89: 759801294
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_9: 1127305475
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_90: -1332655474
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_91: -462600000
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_92: 1637950376
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_93: -1656672988
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_94: 2108429889
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_95: 609474945
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_96: -259707800
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_97: -1157652065
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_98: 35587083
+      Mobile - Dumb Ways to Die 2 The Game - Map Characters_99: 1704677776
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
