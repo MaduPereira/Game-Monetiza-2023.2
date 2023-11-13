@@ -26,8 +26,6 @@ public class PlayerTrem : MonoBehaviour
         Deitado.GetComponent<BoxCollider2D>().enabled = false;
         Morto.enabled = false;
         Morto.GetComponent<BoxCollider2D>().enabled = false;
-
-
     }
 
     // Update is called once per frame
@@ -52,7 +50,7 @@ public class PlayerTrem : MonoBehaviour
 
             if(touch.phase == TouchPhase.Began)
             {
-                StartCoroutine(timeSleep());
+                StartCoroutine(timeSleep()); //deitar
             }
 
             if(touch.phase == TouchPhase.Stationary)
@@ -84,9 +82,22 @@ public class PlayerTrem : MonoBehaviour
     IEnumerator timeSleep()
     {
         dePe.enabled = false;
+        dePe.GetComponent<BoxCollider2D>().enabled = false;
         Deitado.enabled = true;
+        Deitado.GetComponent<BoxCollider2D>().enabled = true;
         yield return new WaitForSeconds(2f);
         dePe.enabled = true;
+        dePe.GetComponent<BoxCollider2D>().enabled = true;
         Deitado.enabled = false;
+        Deitado.GetComponent<BoxCollider2D>().enabled = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "obstacle")
+        {
+            //gameover
+            //chamar cutscene
+        }
     }
 }
