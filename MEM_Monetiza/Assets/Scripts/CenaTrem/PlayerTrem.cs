@@ -42,7 +42,7 @@ public class PlayerTrem : MonoBehaviour
 
         //movimentaçao
 
-        transform.position += Vector3.left * 2f * Time.deltaTime;
+        //transform.position += Vector3.left * 2f * Time.deltaTime;
 
         if (Input.touchCount > 0)
         {
@@ -53,7 +53,7 @@ public class PlayerTrem : MonoBehaviour
                 StartCoroutine(timeSleep()); //deitar
             }
 
-            if(touch.phase == TouchPhase.Stationary)
+            /*if(touch.phase == TouchPhase.Stationary)
             {
                 if(touch.position.x > screenWidth/2)
                 {
@@ -65,7 +65,7 @@ public class PlayerTrem : MonoBehaviour
                     horizontal = -1.0f;
                     transform.localScale = new Vector3(-1, 1, 1);
                 }
-            }
+            }*/
         }
         else
         {
