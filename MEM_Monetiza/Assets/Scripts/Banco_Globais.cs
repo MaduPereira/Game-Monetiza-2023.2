@@ -24,7 +24,7 @@ public class Banco_Globais : MonoBehaviour
 
     Colorblind dalto_Script;
     int daltoType = 4;
-    public Dropdown TypeDaltonism;
+    public Dropdown TypeDaltonism, TypeZoom;
 
     private void Awake()
     {
@@ -38,7 +38,6 @@ public class Banco_Globais : MonoBehaviour
         // Atribuir o componente Colorblind da câmera principal à variável dalto
         dalto_Script = Camera.main.GetComponent<Colorblind>();
         cam_Script = GetComponent<CamZoon>();
-
     }
 
     #region Daltonismo option
@@ -54,10 +53,21 @@ public class Banco_Globais : MonoBehaviour
     public void ChangeZoomType()
     {
         // Verificar o índice selecionado no slade
-        int selectedIndex = cam_Script.Type;
+        int selectedIndex = TypeZoom.value;
 
         // Atribuir o tipo de zoom com base no índice selecionado
         cam_Script.Type = selectedIndex;
+
+        if (selectedIndex == 1)
+        {
+            Slade_Zoom.SetActive(true);
+        }
+        else
+        {
+            Slade_Zoom.SetActive(false); // Desativar o Slade_Zoom se o selectedIndex não for igual a 1
+        }
+
+        cam_Script.GetComponent<CamZoon>().UpdateZoomType();
     }
 
     public void CloseAcessibility()

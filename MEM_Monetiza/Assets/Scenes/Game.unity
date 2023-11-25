@@ -4563,6 +4563,7 @@ MonoBehaviour:
   Canvas_Acessibility: {fileID: 1213028222}
   Slade_Zoom: {fileID: 733669620}
   TypeDaltonism: {fileID: 1591171971}
+  TypeZoom: {fileID: 716648928}
 --- !u!1 &1159144411
 GameObject:
   m_ObjectHideFlags: 0

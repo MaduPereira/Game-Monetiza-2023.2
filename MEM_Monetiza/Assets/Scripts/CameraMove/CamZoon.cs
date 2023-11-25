@@ -21,7 +21,11 @@ public class CamZoon : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        UpdateZoomType();
+    }
+    public void UpdateZoomType()
     {
         if(Type == 0)
         {
