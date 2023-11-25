@@ -13,6 +13,8 @@ public class CamZoon : MonoBehaviour
 
     public Slider slider;
 
+    public int Type = 0;
+
     private void Awake()
     {
         slider = GetComponent<Slider>();
@@ -21,33 +23,55 @@ public class CamZoon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        if(Type == 0)
         {
-            Touch touch = Input.GetTouch(0);
+            if (Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
-            {
-                touchPosWorld = Camera.main.ScreenToWorldPoint(touch.position);
+                if (touch.phase == TouchPhase.Began)
+                {
+                    touchPosWorld = Camera.main.ScreenToWorldPoint(touch.position);
+                }
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
+                    Camera.main.transform.position += direction;
+                }
             }
-            if (touch.phase == TouchPhase.Moved)
+            if (Input.touchCount == 2)
             {
-                Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
-                Camera.main.transform.position += direction;
-            } 
+                Touch touch = Input.GetTouch(0);
+
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
+                    Camera.main.transform.position += direction;
+                    zoom(direction.x - direction.y);
+                }
+            }
+            Camera.main.transform.position = LimiteCam(Camera.main.transform.position);
+            Camera.main.fieldOfView = zoomOutMax;
         }
-        if(Input.touchCount == 2)
+
+        if(Type == 1)
         {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Moved)
+            if (Input.touchCount > 0)
             {
-                Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
-                Camera.main.transform.position += direction;
-                zoom(direction.x - direction.y);
+                Touch toque = Input.GetTouch(0);
+
+                if (toque.phase == TouchPhase.Began)
+                {
+                    touchPosWorld = Camera.main.ScreenToWorldPoint(toque.position);
+                }
+                if (toque.phase == TouchPhase.Moved)
+                {
+                    Vector3 direcao = touchPosWorld - Camera.main.ScreenToWorldPoint(toque.position);
+                    Camera.main.transform.position += direcao;
+                }
             }
         }
-        Camera.main.transform.position = LimiteCam(Camera.main.transform.position);
-        Camera.main.fieldOfView = zoomOutMax;
+        
     }
 
     void zoom(float increment)
@@ -55,12 +79,10 @@ public class CamZoon : MonoBehaviour
         Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
     }
 
-    public void SliderZoom(float Zoom)
+    public void SliderZoom()
     {
-        zoomOutMax = Zoom; // Ajusta o zoom máximo conforme o valor do slider
-        float sliderValue = slider.value; // Obtém o valor atual do slider
-        float zoomIncrement = zoomOutMax - zoomOutMin; // Calcula o incremento baseado nos valores mínimo e máximo do zoom
-        zoom(zoomIncrement * sliderValue); // Chama a função de zoom com o incremento calculado
+        float novoZoom = slider.value; // Obtém o valor do slider
+        Camera.main.GetComponent<Camera>().fieldOfView = Mathf.Clamp(novoZoom, zoomOutMin, zoomOutMax);
     }
 
     Vector3 LimiteCam(Vector3 targtPos)

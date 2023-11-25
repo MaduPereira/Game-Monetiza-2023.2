@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Wilberforce;
 
 public class Banco_Globais : MonoBehaviour
 {
@@ -14,14 +16,69 @@ public class Banco_Globais : MonoBehaviour
     //playerprefabs
 
     // Start is called before the first frame update
-    void Start()
+    public GameObject Canvas_Configurações;
+
+    //Acessibility
+    public GameObject Canvas_Acessibility, Slade_Zoom;
+    CamZoon cam_Script;
+
+    Colorblind dalto_Script;
+    int daltoType = 4;
+    public Dropdown TypeDaltonism;
+
+    private void Awake()
     {
-        
+        Canvas_Acessibility.SetActive(false);
+        Slade_Zoom.SetActive(false);
+        Canvas_Configurações.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        // Atribuir o componente Colorblind da câmera principal à variável dalto
+        dalto_Script = Camera.main.GetComponent<Colorblind>();
+        cam_Script = GetComponent<CamZoon>();
+
     }
+
+    #region Daltonismo option
+    public void ChangeDaltonismType() // Método chamado quando a opção do Dropdown muda
+    {
+        // Verificar o índice selecionado no Dropdown
+        int selectedIndex = TypeDaltonism.value;
+
+        // Atribuir o tipo de daltonismo com base no índice selecionado
+        dalto_Script.Type = selectedIndex;
+    }
+
+    public void ChangeZoomType()
+    {
+        // Verificar o índice selecionado no slade
+        int selectedIndex = cam_Script.Type;
+
+        // Atribuir o tipo de zoom com base no índice selecionado
+        cam_Script.Type = selectedIndex;
+    }
+
+    public void CloseAcessibility()
+    {
+        Canvas_Acessibility.SetActive(false);
+    }
+    #endregion
+
+    #region Buttons Menu
+    public void OpenConfigurações()
+    {
+        Canvas_Configurações.SetActive(true);
+    }
+    public void CloseConfigurações()
+    {
+        Canvas_Configurações.SetActive(false);
+    }
+    public void OpenAcessibility()
+    {
+        Canvas_Acessibility.SetActive(true);
+    }
+
+    #endregion
 }
