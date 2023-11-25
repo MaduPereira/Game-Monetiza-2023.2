@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CamZoon : MonoBehaviour
 {
@@ -9,6 +10,13 @@ public class CamZoon : MonoBehaviour
     public float zoomOutMax = 8;
 
     public float mapMinX, mapMaxX, mapMinY, mapMaxY;
+
+    public Slider slider;
+
+    private void Awake()
+    {
+        slider = GetComponent<Slider>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -39,11 +47,20 @@ public class CamZoon : MonoBehaviour
             }
         }
         Camera.main.transform.position = LimiteCam(Camera.main.transform.position);
+        Camera.main.fieldOfView = zoomOutMax;
     }
 
     void zoom(float increment)
     {
         Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
+    }
+
+    public void SliderZoom(float Zoom)
+    {
+        zoomOutMax = Zoom; // Ajusta o zoom máximo conforme o valor do slider
+        float sliderValue = slider.value; // Obtém o valor atual do slider
+        float zoomIncrement = zoomOutMax - zoomOutMin; // Calcula o incremento baseado nos valores mínimo e máximo do zoom
+        zoom(zoomIncrement * sliderValue); // Chama a função de zoom com o incremento calculado
     }
 
     Vector3 LimiteCam(Vector3 targtPos)
@@ -62,4 +79,5 @@ public class CamZoon : MonoBehaviour
 
         return new Vector3(newX, newY, targtPos.z);
     }
+
 }
