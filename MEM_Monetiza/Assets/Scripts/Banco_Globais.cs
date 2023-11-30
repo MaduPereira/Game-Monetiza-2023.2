@@ -26,6 +26,8 @@ public class Banco_Globais : MonoBehaviour
     int daltoType = 4;
     public Dropdown TypeDaltonism, TypeZoom;
 
+    public GameObject ButaoSon_ON, ButaoSon_OFF;
+
     private void Awake()
     {
         Canvas_Acessibility.SetActive(false);

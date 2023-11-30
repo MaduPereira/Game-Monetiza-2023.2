@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Tela Inicial.unity
+    guid: f84cfc055bee356489e45126a431fe68
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 463c77a08f53f9144a1cd66375374929
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f9a8b4e7277dfd43b2ea093189be1f5, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 19606cb0ee4467147991075575fe9345, type: 2}
