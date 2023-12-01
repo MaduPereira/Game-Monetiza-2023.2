@@ -69,7 +69,10 @@ public class Banco_Globais : MonoBehaviour
             // Modificar os objetos no início
             ModificarObjetos(1.0f, originalScale * 1.2f); // Aumentar o tamanho e remover a transparência
             Invoke("ResetarObjetos", 5.0f); // Chamar a função para resetar após 5 segundos
+    }
 
+    private void Update()
+    {
         // Legenda
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
@@ -100,9 +103,21 @@ public class Banco_Globais : MonoBehaviour
                     painelLegenda.SetActive(false);
                 }
             }
+
+        // Verifica se o Canvas de configurações está ativo
+            if (Canvas_Configurações.activeSelf)
+            {
+                // Se estiver ativo, desabilita o script da câmera
+                cam_Script.enabled = false;
+            }
+            else
+            {
+                // Se estiver desativado, habilita o script da câmera
+                cam_Script.enabled = true;
+            }
     }
 
-#region Animation WaitPoints
+    #region Animation WaitPoints
     void ModificarObjetos(float alpha, Vector3 scale)
     {
         for (int i = 0; i < spriteRenderers.Length; i++)
