@@ -163,7 +163,7 @@ public class Banco_Globais : MonoBehaviour
             Slade_Zoom.SetActive(false); // Desativar o Slade_Zoom se o selectedIndex não for igual a 1
         }
 
-        cam_Script.GetComponent<CamZoon>().UpdateZoomType();
+        //cam_Script.GetComponent<CamZoon>().UpdateZoomType();
     }
 
     public void CloseAcessibility()
