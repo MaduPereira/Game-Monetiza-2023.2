@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Wilberforce;
+using UnityEngine.SceneManagement;
 
 public class Banco_Globais : MonoBehaviour
 {
@@ -42,21 +43,32 @@ public class Banco_Globais : MonoBehaviour
     public GameObject painelLegenda;
     public float margem = 20f; // Margem para o texto
 
+    //games
+    ControladoDeScene SceneController;
+
+    public GameObject canvasTemporizadorPrefab; // Prefab do Canvas Temporizador
+    public bool LoadMinigames = false;
+
+
     private void Awake()
     {
         Canvas_Acessibility.SetActive(false);
         Slade_Zoom.SetActive(false);
         Canvas_Configurações.SetActive(false);
         painelLegenda.SetActive(false);
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
     {
-        // Atribuir o componente Colorblind da câmera principal à variável dalto
+        if (SceneManager.GetActiveScene().rootCount == 1)
+        {
+            // Atribuir o componente Colorblind da câmera principal à variável dalto
             dalto_Script = Camera.main.GetComponent<Colorblind>();
             cam_Script = GetComponent<CamZoon>();
+            //cam_Script.enabled = true;
 
-        // Armazenar os SpriteRenderers e valores originais
+            // Armazenar os SpriteRenderers e valores originais
             spriteRenderers = new SpriteRenderer[WaitPoints.Length];
             for (int i = 0; i < WaitPoints.Length; i++)
             {
@@ -69,11 +81,32 @@ public class Banco_Globais : MonoBehaviour
             // Modificar os objetos no início
             ModificarObjetos(1.0f, originalScale * 1.2f); // Aumentar o tamanho e remover a transparência
             Invoke("ResetarObjetos", 5.0f); // Chamar a função para resetar após 5 segundos
+        }
+        else
+        {
+            //cam_Script.enabled = false;
+
+            SceneController = GetComponent<ControladoDeScene>();
+
+            if (LoadMinigames == true)
+            {
+                // Verificar se o objeto Canvas Temporizador está presente na cena
+                GameObject canvasTemporizador = GameObject.Find("canvasTemporizador");
+
+                if (canvasTemporizador == null)
+                {
+                    // Se não estiver presente, instanciar o prefab do Canvas Temporizador
+                    InstantiateCanvasTemporizador();
+                }
+            }
+        }  
     }
 
     private void Update()
     {
-        // Legenda
+        if (SceneManager.GetActiveScene().rootCount == 1)
+        {
+            // Legenda
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 // Obtemos o toque atual
@@ -104,7 +137,7 @@ public class Banco_Globais : MonoBehaviour
                 }
             }
 
-        // Verifica se o Canvas de configurações está ativo
+            // Verifica se o Canvas de configurações está ativo
             if (Canvas_Configurações.activeSelf)
             {
                 // Se estiver ativo, desabilita o script da câmera
@@ -115,6 +148,17 @@ public class Banco_Globais : MonoBehaviour
                 // Se estiver desativado, habilita o script da câmera
                 cam_Script.enabled = true;
             }
+
+        }
+    }
+
+    void InstantiateCanvasTemporizador()
+    {
+        if (canvasTemporizadorPrefab != null)
+        {
+            // Instanciar o prefab do Canvas Temporizador na cena
+            Instantiate(canvasTemporizadorPrefab);
+        }
     }
 
     #region Animation WaitPoints
@@ -163,7 +207,7 @@ public class Banco_Globais : MonoBehaviour
             Slade_Zoom.SetActive(false); // Desativar o Slade_Zoom se o selectedIndex não for igual a 1
         }
 
-        //cam_Script.GetComponent<CamZoon>().UpdateZoomType();
+        //cam_Script.GetComponent<CamZoon>().sliderZoom(TypeZoom.value);
     }
 
     public void CloseAcessibility()
@@ -199,6 +243,12 @@ public class Banco_Globais : MonoBehaviour
     public void OpenAcessibility()
     {
         Canvas_Acessibility.SetActive(true);
+    }
+
+    public void StarMinigames()
+    {
+        LoadMinigames = true;
+        SceneController.StartNextMinigame();
     }
 
     public void AlternarSons()
