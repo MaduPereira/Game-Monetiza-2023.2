@@ -330,9 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minigameScenes: []
   nomeDaNovaCena: Game
-  nomeDaNovaCena02: 
-  nomeDaNovaCena03: 
 --- !u!4 &567949845
 Transform:
   m_ObjectHideFlags: 0

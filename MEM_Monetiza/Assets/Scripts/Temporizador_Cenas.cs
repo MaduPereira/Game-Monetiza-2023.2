@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Temporizador_Cenas : MonoBehaviour
 {
@@ -11,8 +12,11 @@ public class Temporizador_Cenas : MonoBehaviour
 
     private bool ligado;
 
+    public GameObject canvas_pause;
+
     private void Start()
     {
+        canvas_pause.SetActive(false);
         tempoAtual = tempoMaximo;
         barraHorizontal.DefinirValorMaximo(tempoMaximo);
         IniciaTemporizador();//para começar a dimnuir a barra de tempo
@@ -29,6 +33,7 @@ public class Temporizador_Cenas : MonoBehaviour
             if (tempoAtual <= 0)
             {
                 ligado = false;
+                Banco_Globais.FinishGame = true;
             }
         }
     }
@@ -43,5 +48,22 @@ public class Temporizador_Cenas : MonoBehaviour
     public void IniciaTemporizador()
     {
         ligado = true;
+    }
+
+    public void ButtonPause()
+    {
+        Time.timeScale = 0;
+        canvas_pause.SetActive(true);
+    }
+
+    public void buttonSair()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ButtonContinuar()
+    {
+        Time.timeScale = 1;
+        canvas_pause.SetActive(false);
     }
 }

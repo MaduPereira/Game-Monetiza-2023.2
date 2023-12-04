@@ -49,7 +49,12 @@ public class Banco_Globais : MonoBehaviour
     public GameObject canvasTemporizadorPrefab; // Prefab do Canvas Temporizador
     public bool LoadMinigames = false;
 
-    ControllScore ControllScore;
+    ControllScore controllScore;
+
+    public static bool SitPerdeu = false;
+    public static bool FinishGame = false;
+
+    private static Banco_Globais instance;
 
 
     private void Awake()
@@ -58,13 +63,32 @@ public class Banco_Globais : MonoBehaviour
         Slade_Zoom.SetActive(false);
         Canvas_Configurações.SetActive(false);
         painelLegenda.SetActive(false);
-        DontDestroyOnLoad(gameObject);
+
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Start()
     {
-        if (SceneManager.GetActiveScene().rootCount == 1)
+        //cam_Script.enabled = false;
+
+        SceneController = GetComponent<ControladoDeScene>();
+
+        controllScore = GetComponent<ControllScore>();
+
+        Debug.Log(SceneManager.GetActiveScene().buildIndex);
+
+        if (SceneManager.GetActiveScene().name == "Game")
         {
+            SceneController = GetComponent<ControladoDeScene>();
+
             // Atribuir o componente Colorblind da câmera principal à variável dalto
             dalto_Script = Camera.main.GetComponent<Colorblind>();
             cam_Script = GetComponent<CamZoon>();
@@ -84,29 +108,17 @@ public class Banco_Globais : MonoBehaviour
             ModificarObjetos(1.0f, originalScale * 1.2f); // Aumentar o tamanho e remover a transparência
             Invoke("ResetarObjetos", 5.0f); // Chamar a função para resetar após 5 segundos
         }
-        else
+
+        if (SceneManager.GetActiveScene().name == "Score")
         {
-            //cam_Script.enabled = false;
-
-            SceneController = GetComponent<ControladoDeScene>();
-
-            if (LoadMinigames == true)
-            {
-                // Verificar se o objeto Canvas Temporizador está presente na cena
-                GameObject canvasTemporizador = GameObject.Find("canvasTemporizador");
-
-                if (canvasTemporizador == null)
-                {
-                    // Se não estiver presente, instanciar o prefab do Canvas Temporizador
-                    InstantiateCanvasTemporizador();
-                }
-            }
-        }  
+            controllScore = GetComponent<ControllScore>();
+            gameObject.GetComponent<ControllScore>().enabled = false;
+        } 
     }
 
     private void Update()
     {
-        if (SceneManager.GetActiveScene().rootCount == 1)
+        if (SceneManager.GetActiveScene().name == "Game")
         {
             // Legenda
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -152,15 +164,56 @@ public class Banco_Globais : MonoBehaviour
             }
 
         }
+        else
+        {
+            //cam_Script.enabled = false;
+
+            SceneController = GetComponent<ControladoDeScene>();
+
+            controllScore = GetComponent<ControllScore>();
+
+            if (LoadMinigames == true)
+            {
+                // Verificar se o objeto Canvas Temporizador está presente na cena
+                GameObject canvasTemporizador = GameObject.Find("Canvas.Time(Clone)");
+
+                if (canvasTemporizador == null)
+                {
+                    // Se não estiver presente, instanciar o prefab do Canvas Temporizador
+                    InstantiateCanvasTemporizador();
+                }
+            }
+
+            if (SitPerdeu == true)
+            {
+                ControllScore.life--;
+                //controllScore.gameOver();
+                //FinishGame = true;
+            }
+            if(FinishGame == true)
+            {
+                LoadMinigames = false;
+                StartCoroutine(timeFinish());
+                
+            }
+        }
+    }
+
+    IEnumerator timeFinish()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("Score");
+        SitPerdeu = false;
     }
 
     void InstantiateCanvasTemporizador()
     {
-        if (canvasTemporizadorPrefab != null)
-        {
+
+        /*if (canvasTemporizadorPrefab != null)
+        {*/
             // Instanciar o prefab do Canvas Temporizador na cena
             Instantiate(canvasTemporizadorPrefab);
-        }
+        //}
     }
 
     #region Animation WaitPoints

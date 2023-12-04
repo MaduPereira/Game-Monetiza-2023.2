@@ -834,7 +834,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &117198592
 GameObject:
@@ -1179,7 +1179,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &193892360
 GameObject:
@@ -1642,7 +1642,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &277348977
 GameObject:
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: "CloseConfigura\xE7\xF5es"
         m_Mode: 1
@@ -1941,7 +1941,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &305331768
 Rigidbody2D:
@@ -2106,7 +2106,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &355054524
 GameObject:
@@ -2496,7 +2496,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &438005926
 GameObject:
@@ -3449,7 +3449,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: "OpenConfigura\xE7\xF5es"
         m_Mode: 1
@@ -3667,6 +3667,114 @@ Transform:
   m_Father: {fileID: 1241478301}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &606311632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 606311636}
+  - component: {fileID: 606311635}
+  - component: {fileID: 606311634}
+  - component: {fileID: 606311633}
+  m_Layer: 0
+  m_Name: Global
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &606311633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606311632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9532a5f0238dccc4e9e3dea3a047f72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torcedoresOne: []
+  torcedoresTwo: []
+  torcedoresTree: []
+  tempoExibicao: 2
+  scoreText: {fileID: 0}
+  score: 0
+--- !u!114 &606311634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606311632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minigameScenes:
+  - Desafio_do_Trem
+  - Sinal_Vermelho_Noite
+  - Bala_Perdida
+  nomeDaNovaCena: 
+--- !u!114 &606311635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606311632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3796c1b2d6c60e46b34a2b079d99b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "Canvas_Configura\xE7\xF5es": {fileID: 1796986014}
+  Canvas_Acessibility: {fileID: 1213028222}
+  Slade_Zoom: {fileID: 733669620}
+  TypeDaltonism: {fileID: 1591171971}
+  TypeZoom: {fileID: 716648928}
+  ButaoSon_ON: {fileID: 1772617950}
+  ButaoSon_OFF: {fileID: 1274781087}
+  WaitPoints:
+  - {fileID: 940310391}
+  - {fileID: 662709802}
+  - {fileID: 1566111341}
+  - {fileID: 30615519}
+  - {fileID: 1561702279}
+  - {fileID: 2077174426}
+  objetosLegend:
+  - {fileID: 553578773}
+  - {fileID: 242428775}
+  - {fileID: 1942529649}
+  - {fileID: 14585064}
+  - {fileID: 1801808414}
+  - {fileID: 1198936828}
+  - {fileID: 1634119181}
+  Legenda: {fileID: 277348979}
+  painelLegenda: {fileID: 1159426109}
+  margem: 20
+  canvasTemporizadorPrefab: {fileID: 2522395199861614012, guid: 589ee4d9e7b16ac4195b217dfd788370, type: 3}
+  LoadMinigames: 0
+--- !u!4 &606311636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606311632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.7392342, y: 1.2249047, z: -0.21252549}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619791197
 GameObject:
   m_ObjectHideFlags: 0
@@ -3724,7 +3832,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 57e2d210d5fea9345a6ee4dcfb2f30b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3780,7 +3888,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &662709802
 GameObject:
@@ -4026,13 +4134,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678814069}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 14.88, y: 0.51, z: 0}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 19.411453, y: 3.7540348, z: 29.185226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 1241478301}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &715249731
 GameObject:
@@ -4208,7 +4316,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: ChangeZoomType
         m_Mode: 1
@@ -6066,7 +6174,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1094393984
 GameObject:
@@ -6144,13 +6252,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094393984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.49, y: 5.52, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.021452, y: 8.764034, z: 29.185226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1241478301}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1122039353
 GameObject:
@@ -6327,9 +6435,9 @@ GameObject:
   - component: {fileID: 1147322795}
   - component: {fileID: 1147322794}
   - component: {fileID: 1147322796}
-  - component: {fileID: 1147322798}
   - component: {fileID: 1147322799}
   - component: {fileID: 1147322800}
+  - component: {fileID: 1147322801}
   m_Layer: 0
   m_Name: GameControler
   m_TagString: Untagged
@@ -6370,7 +6478,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1147322796
 MonoBehaviour:
@@ -6394,45 +6502,6 @@ MonoBehaviour:
   maxX: 8
   minSpawnDelay: 1
   maxSpawnDelay: 3
---- !u!114 &1147322798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147322793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3796c1b2d6c60e46b34a2b079d99b81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "Canvas_Configura\xE7\xF5es": {fileID: 1796986014}
-  Canvas_Acessibility: {fileID: 1213028222}
-  Slade_Zoom: {fileID: 733669620}
-  TypeDaltonism: {fileID: 1591171971}
-  TypeZoom: {fileID: 716648928}
-  ButaoSon_ON: {fileID: 1772617950}
-  ButaoSon_OFF: {fileID: 1274781087}
-  WaitPoints:
-  - {fileID: 940310391}
-  - {fileID: 662709802}
-  - {fileID: 1566111341}
-  - {fileID: 30615519}
-  - {fileID: 1561702279}
-  - {fileID: 2077174426}
-  objetosLegend:
-  - {fileID: 553578773}
-  - {fileID: 242428775}
-  - {fileID: 1942529649}
-  - {fileID: 14585064}
-  - {fileID: 1801808414}
-  - {fileID: 1198936828}
-  - {fileID: 1634119181}
-  Legenda: {fileID: 277348979}
-  painelLegenda: {fileID: 1159426109}
-  margem: 20
-  canvasTemporizadorPrefab: {fileID: 2522395199861614012, guid: 589ee4d9e7b16ac4195b217dfd788370, type: 3}
-  LoadMinigames: 0
 --- !u!114 &1147322799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6467,13 +6536,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147322793}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minigameScenes: 020000000300000004000000050000000600000007000000
+  minigameScenes:
+  - Desafio_do_Trem
+  - Sinal_Vermelho_Noite
+  - Bala_Perdida
   nomeDaNovaCena: 
+--- !u!114 &1147322801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147322793}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9532a5f0238dccc4e9e3dea3a047f72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torcedoresOne: []
+  torcedoresTwo: []
+  torcedoresTree: []
+  tempoExibicao: 2
+  scoreText: {fileID: 0}
+  score: 0
 --- !u!1 &1159144411
 GameObject:
   m_ObjectHideFlags: 0
@@ -7037,7 +7127,7 @@ RectTransform:
   - {fileID: 472909175}
   - {fileID: 2058370566}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7073,7 +7163,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1241478300
 GameObject:
@@ -7141,6 +7231,9 @@ Transform:
   - {fileID: 595883966}
   - {fileID: 476311204}
   - {fileID: 237733401}
+  - {fileID: 1094393986}
+  - {fileID: 1667533348}
+  - {fileID: 678814071}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7867,7 +7960,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: StarMinigames
         m_Mode: 1
@@ -8001,7 +8094,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: OpenAcessibility
         m_Mode: 1
@@ -9178,7 +9271,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: ChangeDaltonismType
         m_Mode: 1
@@ -10006,13 +10099,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667533346}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.88, y: 2.27, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.411453, y: 5.5140347, z: 29.185226}
   m_LocalScale: {x: 2.6922972, y: 2.6922972, z: 2.6922972}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 1241478301}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1677404850
 GameObject:
@@ -10898,7 +10991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1796986015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11272,7 +11365,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: AlternarSons
         m_Mode: 1
@@ -12426,7 +12519,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1981750060
 GameObject:
@@ -13009,7 +13102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -26.554962, y: -20.475}
+  m_AnchoredPosition: {x: -26.554932, y: -20.474976}
   m_SizeDelta: {x: 53.46, y: 37.44}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2055912688
@@ -13134,7 +13227,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1147322798}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
         m_MethodName: CloseAcessibility
         m_Mode: 1

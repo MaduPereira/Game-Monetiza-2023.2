@@ -96,6 +96,14 @@ public class PlayerTrem : MonoBehaviour
     {
         if(collision.gameObject.tag == "obstacle")
         {
+            Time.timeScale = 0;
+            dePe.enabled = false;
+            dePe.GetComponent<BoxCollider2D>().enabled = false;
+            Deitado.enabled = false;
+            Deitado.GetComponent<BoxCollider2D>().enabled = false;
+            Morto.enabled = true;
+            Morto.GetComponent<BoxCollider2D>().enabled = true;
+            Banco_Globais.SitPerdeu = true;
             //gameover
             //chamar cutscene
         }

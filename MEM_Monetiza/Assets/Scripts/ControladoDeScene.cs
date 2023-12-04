@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class ControladoDeScene : MonoBehaviour
 {
-    public int[] minigameScenes; // Cenas dos minigames
+    public string[] minigameScenes; // Nomes das cenas dos minigames
     private List<int> randomMinigameIndices = new List<int>();
     private int currentMinigameIndex = -1;
+
     public string nomeDaNovaCena;
 
     // Método chamado quando o botão é clicado
@@ -16,6 +17,7 @@ public class ControladoDeScene : MonoBehaviour
         // Carregar a nova cena
         SceneManager.LoadScene(nomeDaNovaCena);
     }
+
 
     void Start()
     {
@@ -28,7 +30,7 @@ public class ControladoDeScene : MonoBehaviour
 
     void GenerateRandomMinigameIndices()
     {
-        // Gerar uma ordem aleatória para as cenas dos minigames
+        // Gerar uma ordem aleatória para os índices das cenas dos minigames
         List<int> indices = new List<int>();
         for (int i = 0; i < minigameScenes.Length; i++)
         {
@@ -50,7 +52,7 @@ public class ControladoDeScene : MonoBehaviour
         {
             currentMinigameIndex++;
 
-            // Carregar a cena do próximo minigame
+            // Carregar a cena do próximo minigame usando o nome da cena
             SceneManager.LoadScene(minigameScenes[randomMinigameIndices[currentMinigameIndex]]);
         }
         else
@@ -69,6 +71,6 @@ public class ControladoDeScene : MonoBehaviour
     public void LoseCurrentMinigame()
     {
         // O jogador perdeu o minigame atual, então mostrar tela de Game Over
-        //SceneManager.LoadScene("GameOverScene");
+       // SceneManager.LoadScene("GameOverScene");
     }
 }

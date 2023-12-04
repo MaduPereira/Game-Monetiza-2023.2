@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ControllScore : MonoBehaviour
@@ -11,13 +12,18 @@ public class ControllScore : MonoBehaviour
     public Text scoreText;
     public int score = 0;
 
-    public int life = 3;
+    public static int life = 3;
 
     private void Start()
     {
-        StartCoroutine(torcedores1());
-        StartCoroutine(torcedores2());
-        StartCoroutine(torcedores3());
+        if (SceneManager.GetActiveScene().name == "Score")
+        {
+            StartCoroutine(torcedores1());
+            StartCoroutine(torcedores2());
+            StartCoroutine(torcedores3());
+        }
+
+        gameOver();
     }
 
     public IEnumerator torcedores1()
@@ -92,5 +98,28 @@ public class ControllScore : MonoBehaviour
             torcedoresTree[2].GetComponent<SpriteRenderer>().enabled = false;
             StartCoroutine(torcedores3());
         } 
+    }
+
+    public void gameOver()
+    {
+        if (Banco_Globais.SitPerdeu == true)
+        {
+            //fase perdida
+            scoreText.text = "NÍVEL COMPLETO 0";
+            score += 0;
+        }
+        else
+        {
+            //fase foi concluída
+            scoreText.text = "NÍVEL COMPLETO 100";
+            score += 100;
+        }
+
+        while (life >= 0)
+        {
+            StartCoroutine(torcedores1());
+            StartCoroutine(torcedores2());
+            StartCoroutine(torcedores3());
+        }
     }
 }

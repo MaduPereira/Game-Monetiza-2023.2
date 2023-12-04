@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveCar : MonoBehaviour
 {
     [SerializeField] float speed;
+    public GameObject GameOver;
 
     // Update is called once per frame
     void Update()
@@ -21,6 +22,19 @@ public class MoveCar : MonoBehaviour
         else
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
+        }
+
+        if(Banco_Globais.FinishGame == true)
+        {
+            if(transform.position == Camera.main.transform.position)
+            {
+                Banco_Globais.SitPerdeu = true;
+                GameOver.SetActive(true);
+            }     
+        }
+        else
+        {
+            GameOver.SetActive(false);
         }
         
     }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Move_Bus : MonoBehaviour
 {
@@ -18,7 +19,10 @@ public class Move_Bus : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Movimento();
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            Movimento();
+        }
     }
 
     private void Movimento()
@@ -52,15 +56,18 @@ public class Move_Bus : MonoBehaviour
 
     private void Update()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (SceneManager.GetActiveScene().name == "Game")
         {
-            Vector2 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
-
-            if (hit.collider != null)
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                Transform objectClicked = hit.transform;
-                MoveToNearestWaypoint(objectClicked);
+                Vector2 touchPosition = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
+
+                if (hit.collider != null)
+                {
+                    Transform objectClicked = hit.transform;
+                    MoveToNearestWaypoint(objectClicked);
+                }
             }
         }
     }

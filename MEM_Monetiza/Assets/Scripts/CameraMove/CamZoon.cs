@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CamZoon : MonoBehaviour
@@ -17,68 +18,71 @@ public class CamZoon : MonoBehaviour
 
     private void Update()
     {
-        if (Type == 1)
+        if (SceneManager.GetActiveScene().name == "Game")
         {
-            //sliderZoom(Mathf.Lerp(zoomOutMin, zoomOutMax, slider.value));
-            zoom(Mathf.Lerp(zoomOutMin, zoomOutMax, slider.value));
-
-            if (Input.touchCount == 1)
+            if (Type == 1)
             {
-                Touch touch = Input.GetTouch(0);
+                //sliderZoom(Mathf.Lerp(zoomOutMin, zoomOutMax, slider.value));
+                zoom(Mathf.Lerp(zoomOutMin, zoomOutMax, slider.value));
 
-                if (touch.phase == TouchPhase.Began)
+                if (Input.touchCount == 1)
                 {
-                    // Verifica se o toque não está colidindo com o slider
-                    if (!IsTouchOnSlider(touch.position))
+                    Touch touch = Input.GetTouch(0);
+
+                    if (touch.phase == TouchPhase.Began)
+                    {
+                        // Verifica se o toque não está colidindo com o slider
+                        if (!IsTouchOnSlider(touch.position))
+                        {
+                            touchPosWorld = Camera.main.ScreenToWorldPoint(touch.position);
+                        }
+                    }
+                    else if (touch.phase == TouchPhase.Moved)
+                    {
+                        // Verifica se o toque não está colidindo com o slider
+                        if (!IsTouchOnSlider(touch.position))
+                        {
+                            Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
+                            Camera.main.transform.position += direction;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (Input.touchCount == 2)
+                {
+                    Touch touchZero = Input.GetTouch(0);
+                    Touch touchOne = Input.GetTouch(1);
+
+                    Vector2 touchZeroprevPos = touchZero.position - touchZero.deltaPosition;
+                    Vector2 touchOneprevPos = touchOne.position - touchOne.deltaPosition;
+
+                    float prevMagnitude = (touchZeroprevPos - touchOneprevPos).magnitude;
+                    float currentMagnitude = (touchZero.position - touchOne.position).magnitude;
+
+                    float difference = currentMagnitude - prevMagnitude;
+
+                    zoom(difference * 0.01f);
+
+                }
+                else if (Input.touchCount == 1)
+                {
+                    Touch touch = Input.GetTouch(0);
+
+                    if (touch.phase == TouchPhase.Began)
                     {
                         touchPosWorld = Camera.main.ScreenToWorldPoint(touch.position);
                     }
-                }
-                else if (touch.phase == TouchPhase.Moved)
-                {
-                    // Verifica se o toque não está colidindo com o slider
-                    if (!IsTouchOnSlider(touch.position))
+                    else if (touch.phase == TouchPhase.Moved)
                     {
                         Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
                         Camera.main.transform.position += direction;
                     }
                 }
             }
+            Camera.main.transform.position = LimiteCam(Camera.main.transform.position);
         }
-        else
-        {
-            if (Input.touchCount == 2)
-            {
-                Touch touchZero = Input.GetTouch(0);
-                Touch touchOne = Input.GetTouch(1);
-
-                Vector2 touchZeroprevPos = touchZero.position - touchZero.deltaPosition;
-                Vector2 touchOneprevPos = touchOne.position - touchOne.deltaPosition;
-
-                float prevMagnitude = (touchZeroprevPos - touchOneprevPos).magnitude;
-                float currentMagnitude = (touchZero.position - touchOne.position).magnitude;
-
-                float difference = currentMagnitude - prevMagnitude;
-
-                zoom(difference * 0.01f);
-
-            }
-            else if (Input.touchCount == 1)
-            {
-                Touch touch = Input.GetTouch(0);
-
-                if (touch.phase == TouchPhase.Began)
-                {
-                    touchPosWorld = Camera.main.ScreenToWorldPoint(touch.position);
-                }
-                else if (touch.phase == TouchPhase.Moved)
-                {
-                    Vector3 direction = touchPosWorld - Camera.main.ScreenToWorldPoint(touch.position);
-                    Camera.main.transform.position += direction;
-                }
-            }
-        }
-        Camera.main.transform.position = LimiteCam(Camera.main.transform.position);
     }
 
     void zoom(float increment)
