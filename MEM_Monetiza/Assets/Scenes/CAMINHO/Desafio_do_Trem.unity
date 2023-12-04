@@ -1470,7 +1470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1834617865, guid: 674a3509ecba28c4eb0af46048b75488, type: 3}
+  m_Sprite: {fileID: -2132452634, guid: 967e746e8e57b0e4193a2e2055a3b380, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1498,7 +1498,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.609375, y: 2.125}
+    oldSize: {x: 2.4680564, y: 2.3500001}
     newSize: {x: 1.609375, y: 2.125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1644,7 +1644,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -563772000, guid: 674a3509ecba28c4eb0af46048b75488, type: 3}
+  m_Sprite: {fileID: 1326725897, guid: 967e746e8e57b0e4193a2e2055a3b380, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1728,7 +1728,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.453125, y: 2.15625}
+    oldSize: {x: 1.351674, y: 2.3500001}
     newSize: {x: 1.453125, y: 2.15625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2041,7 +2041,7 @@ Transform:
   m_GameObject: {fileID: 1813473665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.059999943, y: -0.4037, z: 0}
-  m_LocalScale: {x: 1, y: 0.5527, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1537116401}
@@ -2088,8 +2088,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9921569, g: 0.6, b: 0, a: 1}
+  m_Sprite: {fileID: 63745088, guid: 967e746e8e57b0e4193a2e2055a3b380, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2116,7 +2116,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.2778208, y: 1.375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

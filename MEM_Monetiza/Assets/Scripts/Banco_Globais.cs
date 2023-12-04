@@ -49,6 +49,8 @@ public class Banco_Globais : MonoBehaviour
     public GameObject canvasTemporizadorPrefab; // Prefab do Canvas Temporizador
     public bool LoadMinigames = false;
 
+    ControllScore ControllScore;
+
 
     private void Awake()
     {
@@ -247,6 +249,7 @@ public class Banco_Globais : MonoBehaviour
 
     public void StarMinigames()
     {
+        ControllScore.life = 3;
         LoadMinigames = true;
         SceneController.StartNextMinigame();
     }
