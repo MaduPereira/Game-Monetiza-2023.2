@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CAMINHO/Bala_Perdida.unity
     guid: b08dc645cdc046a4198c65d5b11c69b7
+  - enabled: 1
+    path: Assets/Scenes/CAMINHO/BRT_.unity
+    guid: d990191ad9872644981437714a96426d
+  - enabled: 1
+    path: Assets/Scenes/ROCKINRIO/Traficante_FugindoDosPupu.unity
+    guid: 74940b075f8aabf47a9d141a23089f66
+  - enabled: 1
+    path: Assets/Scenes/RUA CASAS E PREDIOS/Assalto_emCasa.unity
+    guid: 5f50590df681c2741b1d0b6ea4ae6dbf
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0f9a8b4e7277dfd43b2ea093189be1f5, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 40cbb52a57e64c3439631f61e905544c, type: 2}

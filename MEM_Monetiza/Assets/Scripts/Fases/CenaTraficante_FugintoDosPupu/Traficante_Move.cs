@@ -8,17 +8,20 @@ public class Traficante_Move : MonoBehaviour
 
     void Update()
     {
-        if(Input.touchCount > 0)
+        if (Banco_Globais.startFase == true)
         {
-            Touch touch = Input.GetTouch(0);
+            if (Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
 
-            if(touch.phase == TouchPhase.Began)
-            {
-                transform.position += Vector3.down * speed * Time.deltaTime;
-            }
-            else
-            {
-                transform.position = transform.position;
+                if (touch.phase == TouchPhase.Began)
+                {
+                    transform.position += Vector3.down * speed * Time.deltaTime;
+                }
+                else
+                {
+                    transform.position = transform.position;
+                }
             }
         }
     }

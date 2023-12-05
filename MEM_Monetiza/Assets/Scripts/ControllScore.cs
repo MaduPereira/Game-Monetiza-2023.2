@@ -9,21 +9,24 @@ public class ControllScore : MonoBehaviour
     public GameObject[] torcedoresOne, torcedoresTwo, torcedoresTree;
     public float tempoExibicao = 2f;
 
-    public Text scoreText;
+    public Text scoreText, scoreTotalpoints;
     public int score = 0;
 
     public static int life = 3;
+
+    ControladoDeScene scene;
 
     private void Start()
     {
         if (SceneManager.GetActiveScene().name == "Score")
         {
             StartCoroutine(torcedores1());
+            gameOver();
             StartCoroutine(torcedores2());
             StartCoroutine(torcedores3());
-        }
-
-        gameOver();
+            StartCoroutine(NextFase());
+            scoreTotalpoints.text = score.ToString();
+        }  
     }
 
     public IEnumerator torcedores1()
@@ -81,6 +84,9 @@ public class ControllScore : MonoBehaviour
         if(life == 0)
         {
             torcedoresTree[3].GetComponent<SpriteRenderer>().enabled = true;
+            yield return new WaitForSeconds(tempoExibicao);
+            //gameover
+            Banco_Globais.GGOVER = true;
         }
         else
         {
@@ -121,5 +127,12 @@ public class ControllScore : MonoBehaviour
             StartCoroutine(torcedores2());
             StartCoroutine(torcedores3());
         }
+        
+    }
+
+    IEnumerator NextFase()
+    {
+        yield return new WaitForSeconds(10);
+        Banco_Globais.LoadMinigames = true;
     }
 }

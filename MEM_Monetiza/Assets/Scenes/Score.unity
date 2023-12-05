@@ -1112,9 +1112,9 @@ MonoBehaviour:
   - {fileID: 1903982476}
   - {fileID: 496294627}
   tempoExibicao: 1
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 2099898126}
+  scoreTotalpoints: {fileID: 0}
   score: 0
-  life: 3
 --- !u!4 &1317778552
 Transform:
   m_ObjectHideFlags: 0
@@ -1651,6 +1651,7 @@ GameObject:
   - component: {fileID: 1711523945}
   - component: {fileID: 1711523944}
   - component: {fileID: 1711523943}
+  - component: {fileID: 1711523946}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1724,6 +1725,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1711523946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711523942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae42c8f78c60684aab6be6c18bd7a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0
+  colorblindShader: {fileID: 4800000, guid: b35b8f7ae8cf168488129d5f5f39ebf4, type: 3}
 --- !u!1 &1903982476
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,7 +23,7 @@ namespace BDKCreate.Accessibility {
 		public int minSize = 25;
 		public int maxSize = 75;
 
-		private bool firstTime = true;
+		//private bool firstTime = true;
 
 		public BDKSettings_TextSize(int min, int max){
 			minSize = min;

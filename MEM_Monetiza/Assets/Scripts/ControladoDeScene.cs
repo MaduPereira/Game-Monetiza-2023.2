@@ -23,9 +23,6 @@ public class ControladoDeScene : MonoBehaviour
     {
         // Gerar uma lista aleatória de índices das cenas dos minigames
         GenerateRandomMinigameIndices();
-
-        // Iniciar o primeiro minigame ao iniciar o jogo
-        //StartNextMinigame();
     }
 
     void GenerateRandomMinigameIndices()
@@ -57,20 +54,7 @@ public class ControladoDeScene : MonoBehaviour
         }
         else
         {
-            // Todos os minigames foram completados, mostrar tela de fim de jogo
-            //SceneManager.LoadScene("GameOverScene");
+            GenerateRandomMinigameIndices();
         }
-    }
-
-    public void WinCurrentMinigame()
-    {
-        // O jogador venceu o minigame atual, então iniciar o próximo minigame
-        StartNextMinigame();
-    }
-
-    public void LoseCurrentMinigame()
-    {
-        // O jogador perdeu o minigame atual, então mostrar tela de Game Over
-       // SceneManager.LoadScene("GameOverScene");
     }
 }

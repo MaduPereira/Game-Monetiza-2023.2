@@ -257,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1559,7 +1559,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1808,8 +1808,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: "CloseConfigura\xE7\xF5es"
         m_Mode: 1
         m_Arguments:
@@ -3449,8 +3449,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: "OpenConfigura\xE7\xF5es"
         m_Mode: 1
         m_Arguments:
@@ -3720,6 +3720,9 @@ MonoBehaviour:
   - Desafio_do_Trem
   - Sinal_Vermelho_Noite
   - Bala_Perdida
+  - BRT_
+  - Assalto_emCasa
+  - Traficante_FugindoDosPupu
   nomeDaNovaCena: 
 --- !u!114 &606311635
 MonoBehaviour:
@@ -3733,33 +3736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3796c1b2d6c60e46b34a2b079d99b81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "Canvas_Configura\xE7\xF5es": {fileID: 1796986014}
-  Canvas_Acessibility: {fileID: 1213028222}
-  Slade_Zoom: {fileID: 733669620}
-  TypeDaltonism: {fileID: 1591171971}
-  TypeZoom: {fileID: 716648928}
-  ButaoSon_ON: {fileID: 1772617950}
-  ButaoSon_OFF: {fileID: 1274781087}
-  WaitPoints:
-  - {fileID: 940310391}
-  - {fileID: 662709802}
-  - {fileID: 1566111341}
-  - {fileID: 30615519}
-  - {fileID: 1561702279}
-  - {fileID: 2077174426}
-  objetosLegend:
-  - {fileID: 553578773}
-  - {fileID: 242428775}
-  - {fileID: 1942529649}
-  - {fileID: 14585064}
-  - {fileID: 1801808414}
-  - {fileID: 1198936828}
-  - {fileID: 1634119181}
-  Legenda: {fileID: 277348979}
-  painelLegenda: {fileID: 1159426109}
-  margem: 20
   canvasTemporizadorPrefab: {fileID: 2522395199861614012, guid: 589ee4d9e7b16ac4195b217dfd788370, type: 3}
-  LoadMinigames: 0
+  Canvas_Tutorial: {fileID: 0}
 --- !u!4 &606311636
 Transform:
   m_ObjectHideFlags: 0
@@ -4115,7 +4093,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 14538226ece9b2241aa6a0d34362c753, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4316,8 +4294,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: ChangeZoomType
         m_Mode: 1
         m_Arguments:
@@ -4491,8 +4469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.00012207031, y: -0.0000038146973}
-  m_SizeDelta: {x: 61.87, y: 450}
+  m_AnchoredPosition: {x: -0.00012207031, y: 2.03}
+  m_SizeDelta: {x: 61.87, y: 604.06}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &733669622
 MonoBehaviour:
@@ -6437,7 +6415,6 @@ GameObject:
   - component: {fileID: 1147322796}
   - component: {fileID: 1147322799}
   - component: {fileID: 1147322800}
-  - component: {fileID: 1147322801}
   m_Layer: 0
   m_Name: GameControler
   m_TagString: Untagged
@@ -6536,34 +6513,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147322793}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
+  m_Script: {fileID: 11500000, guid: f9b92442134d57f4f91b3e42d34aa227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minigameScenes:
-  - Desafio_do_Trem
-  - Sinal_Vermelho_Noite
-  - Bala_Perdida
-  nomeDaNovaCena: 
---- !u!114 &1147322801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147322793}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9532a5f0238dccc4e9e3dea3a047f72d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torcedoresOne: []
-  torcedoresTwo: []
-  torcedoresTree: []
-  tempoExibicao: 2
-  scoreText: {fileID: 0}
-  score: 0
+  "Canvas_Configura\xE7\xF5es": {fileID: 1796986014}
+  Canvas_Acessibility: {fileID: 1213028222}
+  Slade_Zoom: {fileID: 733669620}
+  TypeDaltonism: {fileID: 1591171971}
+  TypeZoom: {fileID: 716648928}
+  ButaoSon_ON: {fileID: 1772617950}
+  ButaoSon_OFF: {fileID: 1274781087}
+  WaitPoints:
+  - {fileID: 940310391}
+  - {fileID: 662709802}
+  - {fileID: 1566111341}
+  - {fileID: 30615519}
+  - {fileID: 1561702279}
+  - {fileID: 2077174426}
+  objetosLegend:
+  - {fileID: 242428775}
+  - {fileID: 14585064}
+  - {fileID: 1801808414}
+  - {fileID: 1198936828}
+  - {fileID: 1942529649}
+  - {fileID: 1634119181}
+  Legenda: {fileID: 277348979}
+  painelLegenda: {fileID: 1159426109}
+  margem: 20
 --- !u!1 &1159144411
 GameObject:
   m_ObjectHideFlags: 0
@@ -6964,7 +6942,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7960,8 +7938,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: StarMinigames
         m_Mode: 1
         m_Arguments:
@@ -8094,8 +8072,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: OpenAcessibility
         m_Mode: 1
         m_Arguments:
@@ -9271,8 +9249,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: ChangeDaltonismType
         m_Mode: 1
         m_Arguments:
@@ -9623,7 +9601,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11157,7 +11135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11365,8 +11343,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: AlternarSons
         m_Mode: 1
         m_Arguments:
@@ -12330,7 +12308,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 9
   m_Sprite: {fileID: -309290497, guid: 5ad77caaa5f30c948b68c9ca8b11932b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13227,8 +13205,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Banco_Globais, Assembly-CSharp
+      - m_Target: {fileID: 1147322800}
+        m_TargetAssemblyTypeName: Menu_Huds, Assembly-CSharp
         m_MethodName: CloseAcessibility
         m_Mode: 1
         m_Arguments:

@@ -10,7 +10,7 @@ public class Temporizador_Cenas : MonoBehaviour
     [SerializeField] private float tempoMaximo;
     private float tempoAtual;
 
-    private bool ligado;
+    public static bool ligado;
 
     public GameObject canvas_pause;
 
@@ -32,8 +32,9 @@ public class Temporizador_Cenas : MonoBehaviour
 
             if (tempoAtual <= 0)
             {
-                ligado = false;
+                Debug.Log("Acabou o tempo");
                 Banco_Globais.FinishGame = true;
+                ligado = false;
             }
         }
     }

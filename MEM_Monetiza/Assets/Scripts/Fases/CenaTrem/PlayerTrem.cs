@@ -44,39 +44,46 @@ public class PlayerTrem : MonoBehaviour
 
         //transform.position += Vector3.left * 2f * Time.deltaTime;
 
-        if (Input.touchCount > 0)
+        if(Banco_Globais.startFase == true)
         {
-            Touch touch = Input.GetTouch(0);
-
-            if(touch.phase == TouchPhase.Began)
+            if (Input.touchCount > 0)
             {
-                StartCoroutine(timeSleep()); //deitar
+                Touch touch = Input.GetTouch(0);
+
+                if (touch.phase == TouchPhase.Began)
+                {
+                    StartCoroutine(timeSleep()); //deitar
+                }
+
+                /*if(touch.phase == TouchPhase.Stationary)
+                {
+                    if(touch.position.x > screenWidth/2)
+                    {
+                        horizontal = 1.0f;
+                        transform.localScale = new Vector3(1,1,1);
+                    }
+                    if (touch.position.x < screenWidth / 2)
+                    {
+                        horizontal = -1.0f;
+                        transform.localScale = new Vector3(-1, 1, 1);
+                    }
+                }*/
             }
-
-            /*if(touch.phase == TouchPhase.Stationary)
+            else
             {
-                if(touch.position.x > screenWidth/2)
-                {
-                    horizontal = 1.0f;
-                    transform.localScale = new Vector3(1,1,1);
-                }
-                if (touch.position.x < screenWidth / 2)
-                {
-                    horizontal = -1.0f;
-                    transform.localScale = new Vector3(-1, 1, 1);
-                }
-            }*/
-        }
-        else
-        {
-            horizontal = 0.0f;
+                horizontal = 0.0f;
+            }
         }
 /*        anim.SetFloat("horinzoltal", horizontal);*/
     }
 
     private void FixedUpdate()
     {
-        bd.AddForce(new Vector2(horizontal * (movSpeed * 20f) * Time.deltaTime, 0));
+        if(Banco_Globais.startFase == true)
+        {
+            bd.AddForce(new Vector2(horizontal * (movSpeed * 20f) * Time.deltaTime, 0));
+        }
+        
     }
 
     IEnumerator timeSleep()
@@ -96,6 +103,7 @@ public class PlayerTrem : MonoBehaviour
     {
         if(collision.gameObject.tag == "obstacle")
         {
+            Banco_Globais.SitPerdeu = true;
             Time.timeScale = 0;
             dePe.enabled = false;
             dePe.GetComponent<BoxCollider2D>().enabled = false;
@@ -103,9 +111,6 @@ public class PlayerTrem : MonoBehaviour
             Deitado.GetComponent<BoxCollider2D>().enabled = false;
             Morto.enabled = true;
             Morto.GetComponent<BoxCollider2D>().enabled = true;
-            Banco_Globais.SitPerdeu = true;
-            //gameover
-            //chamar cutscene
         }
     }
 }

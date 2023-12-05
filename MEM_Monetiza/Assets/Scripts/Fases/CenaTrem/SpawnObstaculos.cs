@@ -22,17 +22,20 @@ public class SpawnObstaculos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer > maxTimer)
+        if (Banco_Globais.startFase == true)
         {
-            RandonIndex = Random.Range(0, 2);
-            GameObject newObstaculo = Instantiate(Obstaculo[RandonIndex]);
-            newObstaculo.transform.position = transform.position + new Vector3(widht, height, 0);
-            Destroy(newObstaculo, 20f);
-            timer = 0f;
+            if (timer > maxTimer)
+            {
+                RandonIndex = Random.Range(0, 2);
+                GameObject newObstaculo = Instantiate(Obstaculo[RandonIndex]);
+                newObstaculo.transform.position = transform.position + new Vector3(widht, height, 0);
+                Destroy(newObstaculo, 20f);
+                timer = 0f;
+            }
+
+            Debug.Log(RandonIndex);
+
+            timer += Time.deltaTime;
         }
-
-        Debug.Log(RandonIndex);
-
-        timer += Time.deltaTime;
     }
 }

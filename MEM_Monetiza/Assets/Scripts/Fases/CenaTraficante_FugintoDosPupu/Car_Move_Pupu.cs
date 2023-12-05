@@ -9,6 +9,9 @@ public class Car_Move_Pupu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.position += Vector3.down * speed * Time.deltaTime;
+        if (Banco_Globais.startFase == true)
+        {
+            transform.position += Vector3.down * speed * Time.deltaTime;
+        }
     }
 }

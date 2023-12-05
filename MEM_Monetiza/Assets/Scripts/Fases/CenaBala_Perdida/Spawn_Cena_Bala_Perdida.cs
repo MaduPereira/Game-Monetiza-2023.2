@@ -10,9 +10,12 @@ public class Spawn_Cena_Bala_Perdida : MonoBehaviour
 
     [SerializeField] Transform player; // Referência para o jogador
 
-    void Start()
+    void Update()
     {
-        StartCoroutine(SpawnObjects());
+        if (Banco_Globais.startFase == true)
+        {
+            StartCoroutine(SpawnObjects());
+        }
     }
 
     IEnumerator SpawnObjects()
