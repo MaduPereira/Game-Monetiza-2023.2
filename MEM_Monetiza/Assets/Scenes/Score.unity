@@ -1113,7 +1113,7 @@ MonoBehaviour:
   - {fileID: 496294627}
   tempoExibicao: 1
   scoreText: {fileID: 2099898126}
-  scoreTotalpoints: {fileID: 0}
+  scoreTotalpoints: {fileID: 737239187}
   score: 0
 --- !u!4 &1317778552
 Transform:

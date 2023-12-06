@@ -26,7 +26,7 @@ public class ControllScore : MonoBehaviour
             StartCoroutine(torcedores3());
             StartCoroutine(NextFase());
             scoreTotalpoints.text = score.ToString();
-        }  
+        }
     }
 
     public IEnumerator torcedores1()
@@ -120,14 +120,6 @@ public class ControllScore : MonoBehaviour
             scoreText.text = "NÍVEL COMPLETO 100";
             score += 100;
         }
-
-        while (life >= 0)
-        {
-            StartCoroutine(torcedores1());
-            StartCoroutine(torcedores2());
-            StartCoroutine(torcedores3());
-        }
-        
     }
 
     IEnumerator NextFase()

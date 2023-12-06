@@ -59,6 +59,9 @@ public class Temporizador_Cenas : MonoBehaviour
 
     public void buttonSair()
     {
+        Banco_Globais.LoadMinigames = false;
+        Banco_Globais.startFase = false;
+        Banco_Globais.StartFastGames = false;
         SceneManager.LoadScene(1);
     }
 

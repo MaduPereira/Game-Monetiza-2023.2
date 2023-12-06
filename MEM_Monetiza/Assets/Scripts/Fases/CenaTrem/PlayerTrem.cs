@@ -104,7 +104,8 @@ public class PlayerTrem : MonoBehaviour
         if(collision.gameObject.tag == "obstacle")
         {
             Banco_Globais.SitPerdeu = true;
-            Time.timeScale = 0;
+            Banco_Globais.FinishGame = true;
+            //Time.timeScale = 0;
             dePe.enabled = false;
             dePe.GetComponent<BoxCollider2D>().enabled = false;
             Deitado.enabled = false;

@@ -48,8 +48,16 @@ public class Banco_Globais : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Score")
         {
-            controllScore.enabled = false;
-        } 
+            controllScore.enabled = true;
+        }
+
+
+        if (SceneManager.GetActiveScene().name != "Game")
+        {
+            Canvas_Tutorial = GameObject.Find("Canvas_Tutorial");
+            Canvas_Tutorial.SetActive(true);
+        }
+
     }
 
     private void Update()
@@ -57,12 +65,6 @@ public class Banco_Globais : MonoBehaviour
         SceneController = GetComponent<ControladoDeScene>();
 
         controllScore = GetComponent<ControllScore>();
-
-        if (SceneManager.GetActiveScene().name != "Game")
-        {
-            Canvas_Tutorial = GameObject.Find("Canvas_Tutorial");
-            Canvas_Tutorial.SetActive(true);
-        }
 
         if(StartFastGames == true)
         {
@@ -73,12 +75,16 @@ public class Banco_Globais : MonoBehaviour
 
         if (LoadMinigames == true)
         {
+            Debug.Log("loadGame");
             StartCoroutine(TimeTutorial());
+            LoadMinigames = false;
         }
 
         if(FinishGame == true)
         {
             Debug.Log("Acabou a fase");
+            FinishGame = false;
+
             if (SitPerdeu == true)
             {
                 Debug.Log("fase perdida");
@@ -86,7 +92,6 @@ public class Banco_Globais : MonoBehaviour
             }
 
             startFase = false;
-            LoadMinigames = false;
             StartCoroutine(timeFinish());
         }
 
@@ -98,15 +103,24 @@ public class Banco_Globais : MonoBehaviour
     }
 
     IEnumerator timeFinish()
-    {
+    { 
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Score");
     }
 
     IEnumerator TimeTutorial()
     {
-        yield return new WaitForSeconds(2);
-        Canvas_Tutorial.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+
+        if(Canvas_Tutorial != null)
+        {
+            Canvas_Tutorial.SetActive(false);
+        }
+        else
+        {
+            Canvas_Tutorial = GameObject.Find("Canvas_Tutorial");
+            Canvas_Tutorial.SetActive(false);
+        }
         Debug.Log("desativa");
         // Verificar se o objeto Canvas Temporizador está presente na cena
         GameObject canvasTemporizador = GameObject.Find("Canvas.Time(Clone)");
