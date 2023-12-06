@@ -3693,7 +3693,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606311632}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9532a5f0238dccc4e9e3dea3a047f72d, type: 3}
   m_Name: 
@@ -3703,6 +3703,7 @@ MonoBehaviour:
   torcedoresTree: []
   tempoExibicao: 2
   scoreText: {fileID: 0}
+  scoreTotalpoints: {fileID: 0}
   score: 0
 --- !u!114 &606311634
 MonoBehaviour:

@@ -20,12 +20,10 @@ public class Spawn_Cena_Bala_Perdida : MonoBehaviour
 
     IEnumerator SpawnObjects()
     {
-        while (true)
-        {
-            Instantiate(objectToSpawn, player.position, Quaternion.identity); // Spawn do objeto na posição do jogador
+        Instantiate(objectToSpawn, player.position, Quaternion.identity); // Spawn do objeto na posição do jogador
 
-            float spawnDelay = Random.Range(minSpawnDelay, maxSpawnDelay); // Tempo aleatório entre spawns
-            yield return new WaitForSeconds(spawnDelay);
-        }
+        float spawnDelay = Random.Range(minSpawnDelay, maxSpawnDelay); // Tempo aleatório entre spawns
+        yield return new WaitForSeconds(spawnDelay);
+        StartCoroutine(SpawnObjects());
     }
 }

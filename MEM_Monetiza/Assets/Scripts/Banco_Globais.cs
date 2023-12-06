@@ -10,7 +10,6 @@ public class Banco_Globais : MonoBehaviour
     public GameObject canvasTemporizadorPrefab; // Prefab do Canvas Temporizador
     public static bool LoadMinigames = false;
 
-    ControllScore controllScore;
 
     public static bool SitPerdeu = false;
     public static bool FinishGame = false;
@@ -42,17 +41,10 @@ public class Banco_Globais : MonoBehaviour
     {
         SceneController = GetComponent<ControladoDeScene>();
 
-        controllScore = GetComponent<ControllScore>();
-
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
 
-        if (SceneManager.GetActiveScene().name == "Score")
-        {
-            controllScore.enabled = true;
-        }
 
-
-        if (SceneManager.GetActiveScene().name != "Game")
+        if (SceneManager.GetActiveScene().name != "Game" & SceneManager.GetActiveScene().name != "Score")
         {
             Canvas_Tutorial = GameObject.Find("Canvas_Tutorial");
             Canvas_Tutorial.SetActive(true);
@@ -63,8 +55,6 @@ public class Banco_Globais : MonoBehaviour
     private void Update()
     {
         SceneController = GetComponent<ControladoDeScene>();
-
-        controllScore = GetComponent<ControllScore>();
 
         if(StartFastGames == true)
         {

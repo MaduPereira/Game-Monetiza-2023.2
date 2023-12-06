@@ -124,7 +124,7 @@ public class ControllScore : MonoBehaviour
 
     IEnumerator NextFase()
     {
-        yield return new WaitForSeconds(10);
-        Banco_Globais.LoadMinigames = true;
+        yield return new WaitForSeconds(3);
+        Banco_Globais.StartFastGames = true;
     }
 }
