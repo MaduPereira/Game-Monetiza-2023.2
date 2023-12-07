@@ -21,8 +21,11 @@ public class ControladoDeScene : MonoBehaviour
 
     void Start()
     {
-        // Gerar uma lista aleatória de índices das cenas dos minigames
-        GenerateRandomMinigameIndices();
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            // Gerar uma lista aleatória de índices das cenas dos minigames
+            GenerateRandomMinigameIndices();
+        }
     }
 
     void GenerateRandomMinigameIndices()

@@ -12,6 +12,21 @@ public class Car_Move_Pupu : MonoBehaviour
         if (Banco_Globais.startFase == true)
         {
             transform.position += Vector3.down * speed * Time.deltaTime;
+
+            if(Banco_Globais.SitPerdeu == true)
+            {
+                transform.position += Vector3.down * 5f * Time.deltaTime;
+            }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Finish")
+        {
+            transform.position += Vector3.down * 5f * Time.deltaTime;
+            Banco_Globais.SitPerdeu = true;
+            //Banco_Globais.FinishGame = true;
         }
     }
 }

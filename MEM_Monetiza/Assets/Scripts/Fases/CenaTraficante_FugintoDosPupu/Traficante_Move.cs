@@ -24,5 +24,19 @@ public class Traficante_Move : MonoBehaviour
                 }
             }
         }
+
+        if (Banco_Globais.FinishGame == true)
+        {
+            //se o ladrao está dentro da área visível da câmera
+            Vector3 viewportPoint = Camera.main.WorldToViewportPoint(transform.position);
+            bool dentroDaAreaDaCamera = (viewportPoint.x > 0 && viewportPoint.x < 1 && viewportPoint.y > 0 && viewportPoint.y < 1);
+
+            if (dentroDaAreaDaCamera)
+            {
+                //se o ladrao estiver dentro da área visível da câmera
+                Banco_Globais.SitPerdeu = true;
+                //Banco_Globais.FinishGame = true;
+            }
+        }
     }
 }

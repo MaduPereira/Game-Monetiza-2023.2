@@ -71,6 +71,7 @@ public class Ladrao_Casa : MonoBehaviour
             LadraoIdle.enabled = true;
             LadraoWalk.enabled = false;
             transform.position = transform.position;
+            Banco_Globais.FinishGame = true;
         }
     }
 }

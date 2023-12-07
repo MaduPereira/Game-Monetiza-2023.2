@@ -35,7 +35,7 @@ public class Cena_Atropelamento_Brt : MonoBehaviour
                 PedestreCosta.enabled = false;
                 movendoParaCima = false;
                 transform.position += Vector3.down * speed * Time.deltaTime;
-                Banco_Globais.FinishGame = true;
+                //Banco_Globais.FinishGame = true;
             }
 
             if (Input.touchCount > 0)

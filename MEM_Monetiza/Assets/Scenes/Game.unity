@@ -3677,8 +3677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606311636}
   - component: {fileID: 606311635}
-  - component: {fileID: 606311634}
-  - component: {fileID: 606311633}
+  - component: {fileID: 606311637}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -3686,45 +3685,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &606311633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606311632}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9532a5f0238dccc4e9e3dea3a047f72d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torcedoresOne: []
-  torcedoresTwo: []
-  torcedoresTree: []
-  tempoExibicao: 2
-  scoreText: {fileID: 0}
-  scoreTotalpoints: {fileID: 0}
-  score: 0
---- !u!114 &606311634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606311632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minigameScenes:
-  - Desafio_do_Trem
-  - Sinal_Vermelho_Noite
-  - Bala_Perdida
-  - BRT_
-  - Assalto_emCasa
-  - Traficante_FugindoDosPupu
-  nomeDaNovaCena: 
 --- !u!114 &606311635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3754,6 +3714,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &606311637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606311632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minigameScenes:
+  - Desafio_do_Trem
+  - Sinal_Vermelho_Noite
+  - Bala_Perdida
+  - BRT_
+  - Assalto_emCasa
+  - Traficante_FugindoDosPupu
+  nomeDaNovaCena: Game
 --- !u!1 &619791197
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,9 +54,9 @@ public class Banco_Globais : MonoBehaviour
 
     private void Update()
     {
-        SceneController = GetComponent<ControladoDeScene>();
+        //SceneController = GetComponent<ControladoDeScene>();
 
-        if(StartFastGames == true)
+        if (StartFastGames == true)
         {
             LoadMinigames = true;
             SceneController.StartNextMinigame();

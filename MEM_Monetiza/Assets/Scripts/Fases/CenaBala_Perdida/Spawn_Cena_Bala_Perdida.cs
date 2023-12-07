@@ -5,24 +5,23 @@ using UnityEngine;
 public class Spawn_Cena_Bala_Perdida : MonoBehaviour
 {
     [SerializeField] GameObject objectToSpawn; // Objeto a ser spawnado
-    [SerializeField] float minSpawnDelay = 1f; // Tempo mínimo entre spawns
-    [SerializeField] float maxSpawnDelay = 3f; // Tempo máximo entre spawns
+    [SerializeField] float minSpawnDelay = 0.2f; // Tempo mínimo entre spawns
+    [SerializeField] float maxSpawnDelay = 2f; // Tempo máximo entre spawns
 
     [SerializeField] Transform player; // Referência para o jogador
 
-    void Update()
+    private void Start()
     {
-        if (Banco_Globais.startFase == true)
-        {
-            StartCoroutine(SpawnObjects());
-        }
+        StartCoroutine(SpawnObjects());
     }
 
     IEnumerator SpawnObjects()
     {
-        Instantiate(objectToSpawn, player.position, Quaternion.identity); // Spawn do objeto na posição do jogador
-
-        float spawnDelay = Random.Range(minSpawnDelay, maxSpawnDelay); // Tempo aleatório entre spawns
+        float spawnDelay = Random.Range(minSpawnDelay, maxSpawnDelay); // Tempo aleatório entre spawns 
+        if (Banco_Globais.startFase == true)
+        {
+            Instantiate(objectToSpawn, player.position, Quaternion.identity); // Spawn do objeto na posição do jogador 
+        }
         yield return new WaitForSeconds(spawnDelay);
         StartCoroutine(SpawnObjects());
     }

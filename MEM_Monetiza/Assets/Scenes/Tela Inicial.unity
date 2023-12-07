@@ -330,7 +330,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb238cbd7cd224c4d8c21e627c7d6196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minigameScenes: []
+  minigameScenes:
+  - Desafio_do_Trem
+  - Sinal_Vermelho_Noite
+  - Bala_Perdida
+  - BRT_
+  - Assalto_emCasa
+  - Traficante_FugindoDosPupu
   nomeDaNovaCena: Game
 --- !u!4 &567949845
 Transform:

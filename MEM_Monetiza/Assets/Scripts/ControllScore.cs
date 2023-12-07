@@ -10,11 +10,11 @@ public class ControllScore : MonoBehaviour
     public float tempoExibicao = 2f;
 
     public Text scoreText, scoreTotalpoints;
-    public int score = 0;
+    public static int score = 0;
 
     public static int life = 3;
 
-    ControladoDeScene scene;
+    //ControladoDeScene scene;
 
     private void Start()
     {
@@ -59,6 +59,7 @@ public class ControllScore : MonoBehaviour
     {
         if(life == 1)
         {
+            torcedoresOne[3].GetComponent<SpriteRenderer>().enabled = true;
             torcedoresTwo[3].GetComponent<SpriteRenderer>().enabled = true;
         }
         else
@@ -83,6 +84,8 @@ public class ControllScore : MonoBehaviour
     {
         if(life == 0)
         {
+            torcedoresOne[3].GetComponent<SpriteRenderer>().enabled = true;
+            torcedoresTwo[3].GetComponent<SpriteRenderer>().enabled = true;
             torcedoresTree[3].GetComponent<SpriteRenderer>().enabled = true;
             yield return new WaitForSeconds(tempoExibicao);
             //gameover
