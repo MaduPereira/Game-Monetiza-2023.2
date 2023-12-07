@@ -14,7 +14,15 @@ public class ControllScore : MonoBehaviour
 
     public static int life = 3;
 
+    public GameObject SoundV, SoundP;
+
     //ControladoDeScene scene;
+
+    private void Awake()
+    {
+        SoundV.SetActive(false);
+        SoundP.SetActive(false);
+    }
 
     private void Start()
     {
@@ -113,12 +121,18 @@ public class ControllScore : MonoBehaviour
     {
         if (Banco_Globais.SitPerdeu == true)
         {
+            SoundV.SetActive(false);
+            SoundP.SetActive(true);
+            SoundP.GetComponent<AudioSource>().Play();
             //fase perdida
             scoreText.text = "NÍVEL COMPLETO 0";
             score += 0;
         }
         else
         {
+            SoundV.SetActive(true);
+            SoundP.SetActive(false);
+            SoundV.GetComponent<AudioSource>().Play();
             //fase foi concluída
             scoreText.text = "NÍVEL COMPLETO 100";
             score += 100;

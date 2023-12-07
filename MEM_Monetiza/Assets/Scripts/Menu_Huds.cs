@@ -13,7 +13,7 @@ public class Menu_Huds : MonoBehaviour
     public GameObject Canvas_Acessibility, Slade_Zoom;
     CamZoon cam_Script;
 
-    Colorblind dalto_Script;
+    //Colorblind dalto_Script;
     //int daltoType = 4;
     public Dropdown TypeDaltonism, TypeZoom;
 
@@ -44,7 +44,7 @@ public class Menu_Huds : MonoBehaviour
     {
 
         // Atribuir o componente Colorblind da câmera principal à variável dalto
-        dalto_Script = Camera.main.GetComponent<Colorblind>();
+        //dalto_Script = Camera.main.GetComponent<Colorblind>();
 
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
 
@@ -138,7 +138,7 @@ public class Menu_Huds : MonoBehaviour
         int selectedIndex = TypeDaltonism.value;
 
         // Atribuir o tipo de daltonismo com base no índice selecionado
-        dalto_Script.Type = selectedIndex;
+        Colorblind.Type = selectedIndex;
     }
 
     public void ChangeZoomType()

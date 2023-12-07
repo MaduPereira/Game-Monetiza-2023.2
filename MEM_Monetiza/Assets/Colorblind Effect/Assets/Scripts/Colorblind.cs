@@ -14,7 +14,7 @@ namespace Wilberforce
     public class Colorblind : MonoBehaviour
     {
         // public Parameters  
-		public int Type = 0;
+		public static int Type = 0;
 
         // private Parameters
 		public Shader colorblindShader;
@@ -150,7 +150,7 @@ namespace Wilberforce
 			var colorblindScript = target as Colorblind;
 
             // bind the 'Type' parameter of the Colorblind script to dropdown in GUI
-            colorblindScript.Type = EditorGUILayout.IntPopup(typeLabelContent, colorblindScript.Type, typeTexts, typeInts);
+            Colorblind.Type = EditorGUILayout.IntPopup(typeLabelContent, Colorblind.Type, typeTexts, typeInts);
 
 			// if user made some changes (selected new value from the dropdown) we have to forward the notification
 			if (GUI.changed)

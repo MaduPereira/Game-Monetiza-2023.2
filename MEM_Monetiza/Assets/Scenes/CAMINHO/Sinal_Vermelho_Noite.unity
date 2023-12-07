@@ -639,7 +639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae42c8f78c60684aab6be6c18bd7a9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
   colorblindShader: {fileID: 4800000, guid: b35b8f7ae8cf168488129d5f5f39ebf4, type: 3}
 --- !u!1 &848934090
 GameObject:
@@ -738,7 +737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1e4761b2e70f74085fa9b8f7e4645f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   GameOver: {fileID: 1973880151}
 --- !u!1 &1107129251
 GameObject:
@@ -1009,7 +1008,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.109955, y: 12}
+  m_AnchoredPosition: {x: 21.109985, y: 12}
   m_SizeDelta: {x: 539.11, y: 242.41}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1496035934
